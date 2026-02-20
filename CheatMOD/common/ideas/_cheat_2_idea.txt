@@ -1,0 +1,1402 @@
+ideas = {
+    cheat_training = {
+        law = yes
+        cheat_training_lv0 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                training_time_factor = -0
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+            default = yes
+        }
+        cheat_training_lv1 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                training_time_factor = -0.06
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_training_lv2 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                training_time_factor = -0.12
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_training_lv3 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                training_time_factor = -0.24
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_training_lv4 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                training_time_factor = -0.32
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_training_lv5 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                training_time_factor = -0.64
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_training_lv6 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                training_time_factor = -0.72
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_training_lv7 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                training_time_factor = -0.84
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_training_lv8 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                training_time_factor = -0.96
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_training_lv9 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                training_time_factor = -1.08
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+    }
+
+    cheat_experience = {
+        law = yes
+        cheat_experience_lv0 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                experience_gain_air_factor = 0.0
+                experience_gain_air = 0.0
+                experience_gain_army_factor = 0.0
+                experience_gain_army = 0.0
+                experience_gain_navy_factor = 0.0
+                experience_gain_navy = 0.0
+                experience_gain_army_unit_factor = 0.0
+                experience_gain_navy_unit_factor = 0.0
+            }
+            ai_will_do = {
+                factor = 0
+            }
+            default = yes
+        }
+        cheat_experience_lv1 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                experience_gain_air_factor = 0.01
+                experience_gain_air = 0.1
+                experience_gain_army_factor = 0.01
+                experience_gain_army = 0.1
+                experience_gain_navy_factor = 0.01
+                experience_gain_navy = 0.1
+                experience_gain_army_unit_factor = 0.01
+                experience_gain_navy_unit_factor = 0.01
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_experience_lv2 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                experience_gain_air_factor = 0.10
+                experience_gain_air = 25
+                experience_gain_army_factor = 0.10
+                experience_gain_army = 25
+                experience_gain_navy_factor = 0.10
+                experience_gain_navy = 25
+                experience_gain_army_unit_factor = 0.10
+                experience_gain_navy_unit_factor = 0.10
+            }
+            
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_experience_lv3 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                experience_gain_air_factor = 0.50
+                experience_gain_air = 5
+                experience_gain_army_factor = 0.50
+                experience_gain_army = 5
+                experience_gain_navy_factor = 0.50
+                experience_gain_navy = 5
+                experience_gain_army_unit_factor = 0.50
+                experience_gain_navy_unit_factor = 0.50
+            }
+            
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_experience_lv4 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                experience_gain_air_factor = 0.75
+                experience_gain_air = 75
+                experience_gain_army_factor = 0.75
+                experience_gain_army = 75
+                experience_gain_navy_factor = 0.75
+                experience_gain_navy = 75
+                experience_gain_army_unit_factor = 0.75
+                experience_gain_navy_unit_factor = 0.75
+            }
+            
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_experience_lv5 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                experience_gain_air_factor = 1.75
+                experience_gain_air = 100
+                experience_gain_army_factor = 1.75
+                experience_gain_army = 100
+                experience_gain_navy_factor = 1.75
+                experience_gain_navy = 100
+                experience_gain_army_unit_factor = 1.75
+                experience_gain_navy_unit_factor = 1.75
+            }
+            
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_experience_lv6 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                experience_gain_air_factor = 2.0
+                experience_gain_air = 200
+                experience_gain_army_factor = 2.0
+                experience_gain_army = 200
+                experience_gain_navy_factor = 2.0
+                experience_gain_navy = 200
+                experience_gain_army_unit_factor = 2.0
+                experience_gain_navy_unit_factor = 2.0
+            }
+            
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_experience_lv7 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                experience_gain_air_factor = 2.25
+                experience_gain_air = 225
+                experience_gain_army_factor = 2.25
+                experience_gain_army = 225
+                experience_gain_navy_factor = 2.25
+                experience_gain_navy = 225
+                experience_gain_army_unit_factor = 2.25
+                experience_gain_navy_unit_factor = 2.25
+            }
+            
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_experience_lv8 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                experience_gain_air_factor = 2.50
+                experience_gain_air = 250
+                experience_gain_army_factor = 2.50
+                experience_gain_army = 250
+                experience_gain_navy_factor = 2.50
+                experience_gain_navy = 250
+                experience_gain_army_unit_factor = 2.50
+                experience_gain_navy_unit_factor = 2.50
+            }
+            
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_experience_lv9 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                experience_gain_air_factor = 3.0
+                experience_gain_air = 300
+                experience_gain_army_factor = 3.0
+                experience_gain_army = 300
+                experience_gain_navy_factor = 3.0
+                experience_gain_navy = 300
+                experience_gain_army_unit_factor = 3.0
+                experience_gain_navy_unit_factor = 3.0
+            }
+            
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+
+    cheat_airforce = {
+        law = yes
+        cheat_airforce_lv0 = {
+            picture = generic_air_bonus
+            modifier = {
+                air_attack_factor = 0.0
+                air_accidents = -0.0
+                air_accidents_factor = -0.0
+                air_ace_generation_chance_factor = 0.0
+                air_agility_factor = 0.0
+                air_intercept_efficiency = 0.0
+                AIR_BOMBING_TARGETTING = 0.0
+                AIR_DEFENCE_FACTOR = 0.0
+                AIR_DETECTION = 0.0
+                air_night_penalty = -0.0
+                AIR_RANGE_FACTOR = 0.0
+                air_weather_penalty = -0.0
+                army_bonus_air_superiority_factor = 0.0
+                enemy_army_bonus_air_superiority_factor = -0.0
+            }
+            ai_will_do = {
+                factor = 0
+            }
+            default = yes
+        }
+        cheat_airforce_lv1 = {
+            picture = generic_air_bonus
+            modifier = {
+                air_attack_factor = 0.01
+                #air_accidents = -0.01
+                air_accidents_factor = -0.01
+                air_ace_generation_chance_factor = 0.01
+                air_agility_factor = 0.01
+                air_intercept_efficiency = 0.01
+                AIR_BOMBING_TARGETTING = 0.01
+                AIR_DEFENCE_FACTOR = 0.01
+                AIR_DETECTION = 0.01
+                air_night_penalty = -0.01
+                AIR_RANGE_FACTOR = 0.01
+                air_weather_penalty = -0.01
+                army_bonus_air_superiority_factor = 0.01
+                enemy_army_bonus_air_superiority_factor = -0.01
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_airforce_lv2 = {
+            picture = generic_air_bonus
+            modifier = {
+                air_attack_factor = 0.10
+                #air_accidents = -0.10
+                air_accidents_factor = -0.10
+                air_ace_generation_chance_factor = 0.10
+                air_intercept_efficiency = 0.10
+                AIR_BOMBING_TARGETTING = 0.10
+                AIR_DEFENCE_FACTOR = 0.10
+                AIR_DETECTION = 0.10
+                air_night_penalty = -0.10
+                AIR_RANGE_FACTOR = 0.10
+                air_weather_penalty = -0.10
+                army_bonus_air_superiority_factor = 0.10
+                enemy_army_bonus_air_superiority_factor = -0.10
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_airforce_lv3 = {
+            picture = generic_air_bonus
+            modifier = {
+                air_attack_factor = 0.50
+                #air_accidents = -0.50
+                air_accidents_factor = -0.50
+                air_ace_generation_chance_factor = 0.50
+                air_intercept_efficiency = 0.50
+                AIR_BOMBING_TARGETTING = 0.50
+                AIR_DEFENCE_FACTOR = 0.50
+                AIR_DETECTION = 0.50
+                air_night_penalty = -0.50
+                AIR_RANGE_FACTOR = 0.50
+                air_weather_penalty = -0.50
+                army_bonus_air_superiority_factor = 0.50
+                enemy_army_bonus_air_superiority_factor = -0.50
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_airforce_lv4 = {
+            picture = generic_air_bonus
+            modifier = {
+                air_attack_factor = 0.75
+                #air_accidents = -0.75
+                air_accidents_factor = -0.75
+                air_ace_generation_chance_factor = 0.75
+                air_intercept_efficiency = 0.75
+                AIR_BOMBING_TARGETTING = 0.75
+                AIR_DEFENCE_FACTOR = 0.75
+                AIR_DETECTION = 0.75
+                air_night_penalty = -0.75
+                AIR_RANGE_FACTOR = 0.75
+                air_weather_penalty = -0.75
+                army_bonus_air_superiority_factor = 0.75
+                enemy_army_bonus_air_superiority_factor = -0.75
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_airforce_lv5 = {
+            picture = generic_air_bonus
+            modifier = {
+                air_attack_factor = 1.75
+                #air_accidents = -1.75
+                air_accidents_factor = -1.75
+                air_ace_generation_chance_factor = 1.75
+                air_intercept_efficiency = 1.75
+                AIR_BOMBING_TARGETTING = 1.75
+                AIR_DEFENCE_FACTOR = 1.75
+                AIR_DETECTION = 1.75
+                air_night_penalty = -1.75
+                AIR_RANGE_FACTOR = 1.75
+                air_weather_penalty = -1.75
+                army_bonus_air_superiority_factor = 1.75
+                enemy_army_bonus_air_superiority_factor = -1.75
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_airforce_lv6 = {
+            picture = generic_air_bonus
+            modifier = {
+                air_attack_factor = 2.0
+                #air_accidents = -2.0
+                air_accidents_factor = -2.0
+                air_ace_generation_chance_factor = 2.0
+                air_intercept_efficiency = 2.0
+                AIR_BOMBING_TARGETTING = 2.0
+                AIR_DEFENCE_FACTOR = 2.0
+                AIR_DETECTION = 2.0
+                air_night_penalty = -2.0
+                AIR_RANGE_FACTOR = 2.0
+                air_weather_penalty = -2.0
+                army_bonus_air_superiority_factor = 2.0
+                enemy_army_bonus_air_superiority_factor = -2.0
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_airforce_lv7 = {
+            picture = generic_air_bonus
+            modifier = {
+                air_attack_factor = 2.25
+                #air_accidents = -2.25
+                air_accidents_factor = -2.25
+                air_ace_generation_chance_factor = 2.25
+                air_intercept_efficiency = 2.25
+                AIR_BOMBING_TARGETTING = 2.25
+                AIR_DEFENCE_FACTOR = 2.25
+                AIR_DETECTION = 2.25
+                air_night_penalty = -2.25
+                AIR_RANGE_FACTOR = 2.25
+                air_weather_penalty = -2.25
+                army_bonus_air_superiority_factor = 2.25
+                enemy_army_bonus_air_superiority_factor = -2.25
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_airforce_lv8 = {
+            picture = generic_air_bonus
+            modifier = {
+                air_attack_factor = 2.50
+                #air_accidents = -2.50
+                air_accidents_factor = -2.50
+                air_ace_generation_chance_factor = 2.50
+                air_intercept_efficiency = 2.50
+                AIR_BOMBING_TARGETTING = 2.50
+                AIR_DEFENCE_FACTOR = 2.50
+                AIR_DETECTION = 2.50
+                air_night_penalty = -2.50
+                AIR_RANGE_FACTOR = 2.50
+                air_weather_penalty = -2.50
+                army_bonus_air_superiority_factor = 2.50
+                enemy_army_bonus_air_superiority_factor = -2.50
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_airforce_lv9 = {
+            picture = generic_air_bonus
+            modifier = {
+                air_attack_factor = 3.0
+                #air_accidents = -3.0
+                air_accidents_factor = -3.0
+                air_ace_generation_chance_factor = 3.0
+                air_intercept_efficiency = 3.0
+                AIR_BOMBING_TARGETTING = 3.0
+                AIR_DEFENCE_FACTOR = 3.0
+                AIR_DETECTION = 3.0
+                air_night_penalty = -3.0
+                AIR_RANGE_FACTOR = 3.0
+                air_weather_penalty = -3.0
+                army_bonus_air_superiority_factor = 3.0
+                enemy_army_bonus_air_superiority_factor = -3.0
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+
+    cheat_army = {
+        law = yes
+        cheat_army_lv0 = {
+            picture = generic_infantry_bonus
+            modifier = {
+                acclimatization_cold_climate_gain_factor = 0
+                acclimatization_hot_climate_gain_factor = 0
+                amphibious_invasion = 0
+                army_armor_speed_factor = 0
+                army_attack_factor = 0
+                army_core_attack_factor = 0
+                army_core_defence_factor = 0
+                army_defence_factor = 0
+                army_morale = 0
+                army_morale_factor = 0
+                army_org = 0
+                army_org_factor = 0
+                army_speed_factor = 0
+                attrition = -0
+                combat_width_factor = -0
+                command_power_gain = 0
+                compliance_growth_on_our_occupied_states = 0.0
+                conscription = 0
+                conscription_factor = 0
+                decryption_factor = 0
+                defence = 0
+                dig_in_speed = 0
+                dig_in_speed_factor = 0
+                encryption_factor = 0
+                enemy_partisan_effect = -0
+                experience_loss_factor = -0
+                female_divisional_commander_chance = 0
+                heat_attrition_factor = -0
+                invasion_preparation = 0
+                local_manpower = 0.0
+                local_non_core_manpower = 0.0
+                land_reinforce_rate = 0
+                local_org_regain = 0
+                max_dig_in = 0
+                max_planning = 0
+                minimum_training_level = -0
+                mobilization_speed = 0
+                no_supply_grace = 0
+                non_core_manpower = 0
+                occupation_cost = -0.0
+                offence = 0
+                org_loss_when_moving = -0
+                out_of_supply_factor = -0
+                partisan_effect = 0
+                planning_speed = 0
+                recruitable_population_factor = 0.0
+                recon_factor = 0
+                supply_consumption_factor = -0
+                terrain_penalty_reduction = 0
+                winter_attrition_factor = -0
+            }
+            state_modifier = {
+                compliance_gain = 0.0
+            }
+            ai_will_do = {
+                factor = 0
+            }
+            default = yes
+        }
+        cheat_army_lv1 = {
+            picture = generic_infantry_bonus
+            modifier = {
+                acclimatization_cold_climate_gain_factor = 0.01
+                acclimatization_hot_climate_gain_factor = 0.01
+                amphibious_invasion = 0.01
+                army_armor_speed_factor = 0.01
+                army_attack_factor = 0.01
+                army_core_attack_factor = 0.01
+                army_core_defence_factor = 0.01
+                army_defence_factor = 0.01
+                army_morale_factor = 0.01
+                army_org = 0.01
+                army_org_factor = 0.01
+                army_speed_factor = 0.01
+                attrition = -0.01
+                combat_width_factor = -0.01
+                command_power_gain = 50
+                compliance_growth_on_our_occupied_states = 0.01
+                conscription = 0.01
+                conscription_factor = 0.01
+                decryption_factor = 0.01
+                defence = 0.01
+                dig_in_speed = 0.01
+                dig_in_speed_factor = 0.01
+                encryption_factor = 0.01
+                enemy_partisan_effect = -0.01
+                experience_loss_factor = -0.01
+                female_divisional_commander_chance = 0.01
+                heat_attrition_factor = -0.01
+                invasion_preparation = -0.01
+                land_reinforce_rate = 0.01
+                local_org_regain = 0.01
+                max_dig_in = 0.01
+                max_planning = 0.01
+                minimum_training_level = -0.01
+                mobilization_speed = 0.01
+                no_supply_grace = 0.01
+                non_core_manpower = 0.01
+                occupation_cost = -0.01
+                offence = 0.01
+                org_loss_when_moving = -0.01
+                out_of_supply_factor = -0.01
+                partisan_effect = 0.01
+                planning_speed = 0.01
+                recon_factor = 0.01
+                supply_consumption_factor = -0.01
+                terrain_penalty_reduction = 0.01
+                winter_attrition_factor = -0.01
+            }
+            state_modifier = {
+                compliance_gain = 0.01
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_army_lv2 = {
+            picture = generic_infantry_bonus
+            modifier = {
+                acclimatization_cold_climate_gain_factor = 0.10
+                acclimatization_hot_climate_gain_factor = 0.10
+                amphibious_invasion = 0.10
+                army_armor_speed_factor = 0.10
+                army_attack_factor = 0.30
+                army_core_attack_factor = 0.10
+                army_core_defence_factor = 0.10
+                army_defence_factor = 0.25
+                army_morale_factor = 0.10
+                army_org = 15
+                army_org_factor = 0.30
+                army_speed_factor = 0.10
+                attrition = -0.20
+                combat_width_factor = -0.40
+                compliance_growth_on_our_occupied_states = 0.10
+                conscription = 0.03
+                conscription_factor = 0.20
+                decryption_factor = 0.10
+                defence = 0.10
+                dig_in_speed = 0.10
+                dig_in_speed_factor = 0.10
+                encryption_factor = 0.10
+                enemy_partisan_effect = -0.10
+                experience_loss_factor = -0.10
+                female_divisional_commander_chance = 0.10
+                heat_attrition_factor = -0.10
+                invasion_preparation = -0.10
+                land_reinforce_rate = 0.10
+                local_org_regain = 0.10
+                max_dig_in = 0.10
+                max_planning = 0.10
+                minimum_training_level = -0.10
+                mobilization_speed = 0.10
+                no_supply_grace = 0.10
+                non_core_manpower = 0.10
+                occupation_cost = -0.10
+                offence = 0.10
+                org_loss_when_moving = -0.10
+                out_of_supply_factor = -0.10
+                partisan_effect = 0.10
+                planning_speed = 0.10
+                recon_factor = 0.10
+                supply_consumption_factor = -0.40
+                terrain_penalty_reduction = 0.30
+                winter_attrition_factor = -0.10
+		    breakthrough_factor = 0.3
+            }
+            state_modifier = {
+                compliance_gain = 0.10
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_army_lv3 = {
+            picture = generic_infantry_bonus
+            modifier = {
+                acclimatization_cold_climate_gain_factor = 0.50
+                acclimatization_hot_climate_gain_factor = 0.50
+                amphibious_invasion = 0.50
+                army_armor_speed_factor = 0.50
+                army_attack_factor = 0.50
+                army_core_attack_factor = 0.50
+                army_core_defence_factor = 0.50
+                army_defence_factor = 0.50
+                army_morale_factor = 0.50
+                army_org = 0.50
+                army_org_factor = 0.50
+                army_speed_factor = 0.50
+                attrition = -0.50
+                combat_width_factor = -0.50
+                compliance_growth_on_our_occupied_states = 0.50
+                conscription = 0.50
+                conscription_factor = 0.50
+                decryption_factor = 0.50
+                defence = 0.50
+                dig_in_speed = 0.50
+                dig_in_speed_factor = 0.50
+                encryption_factor = 0.50
+                enemy_partisan_effect = -0.50
+                experience_loss_factor = -0.50
+                female_divisional_commander_chance = 0.50
+                heat_attrition_factor = -0.50
+                invasion_preparation = -0.50
+                land_reinforce_rate = 0.50
+                local_org_regain = 0.50
+                max_dig_in = 0.50
+                max_planning = 0.50
+                minimum_training_level = -0.50
+                mobilization_speed = 0.50
+                no_supply_grace = 0.50
+                non_core_manpower = 0.50
+                occupation_cost = -0.50
+                offence = 0.50
+                org_loss_when_moving = -0.50
+                out_of_supply_factor = -0.50
+                partisan_effect = 0.50
+                planning_speed = 0.50
+                recon_factor = 0.50
+                supply_consumption_factor = -0.50
+                terrain_penalty_reduction = 0.50
+                winter_attrition_factor = -0.50
+            }
+            state_modifier = {
+                compliance_gain = 50.0
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_army_lv4 = {
+            picture = generic_infantry_bonus
+            modifier = {
+                acclimatization_cold_climate_gain_factor = 0.75
+                acclimatization_hot_climate_gain_factor = 0.75
+                amphibious_invasion = 0.75
+                army_attack_factor = 0.75
+                army_core_attack_factor = 0.75
+                army_core_defence_factor = 0.75
+                army_defence_factor = 0.75
+                army_morale_factor = 0.75
+                army_org = 0.75
+                army_org_factor = 0.75
+                army_speed_factor = 0.75
+                attrition = -0.75
+                combat_width_factor = -0.75
+                compliance_growth_on_our_occupied_states = 0.75
+                conscription = 0.75
+                conscription_factor = 0.75
+                decryption_factor = 0.75
+                defence = 0.75
+                dig_in_speed = 0.75
+                dig_in_speed_factor = 0.75
+                encryption_factor = 0.75
+                enemy_partisan_effect = -0.75
+                female_divisional_commander_chance = 0.75
+                heat_attrition_factor = -0.75
+                invasion_preparation = -0.75
+                land_reinforce_rate = 0.75
+                max_dig_in = 0.75
+                max_planning = 0.75
+                minimum_training_level = -0.75
+                mobilization_speed = 0.75
+                no_supply_grace = 0.75
+                non_core_manpower = 0.75
+                occupation_cost = -0.75
+                offence = 0.75
+                out_of_supply_factor = -0.75
+                partisan_effect = 0.75
+                planning_speed = 0.75
+                recon_factor = 0.75
+                supply_consumption_factor = -0.75
+                terrain_penalty_reduction = 0.75
+                winter_attrition_factor = -0.75
+                special_forces_cap = 0.75
+                special_forces_min = 0.75
+            }
+            state_modifier = {
+                compliance_gain = 0.75
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_army_lv5 = {
+            picture = generic_infantry_bonus
+            modifier = {
+                acclimatization_cold_climate_gain_factor = 1.75
+                acclimatization_hot_climate_gain_factor = 1.75
+                amphibious_invasion = 1.75
+                army_attack_factor = 1.75
+                army_core_attack_factor = 1.75
+                army_core_defence_factor = 1.75
+                army_defence_factor = 1.75
+                army_morale_factor = 1.75
+                army_org = 1.75
+                army_org_factor = 1.75
+                army_speed_factor = 1.75
+                attrition = -1.75
+                combat_width_factor = -1.75
+                compliance_growth_on_our_occupied_states = 1.75
+                conscription = 1.75
+                conscription_factor = 1.75
+                decryption_factor = 1.75
+                defence = 1.75
+                dig_in_speed = 1.75
+                dig_in_speed_factor = 1.75
+                encryption_factor = 1.75
+                enemy_partisan_effect = -1.75
+                female_divisional_commander_chance = 1.75
+                heat_attrition_factor = -1.75
+                invasion_preparation = -1.75
+                land_reinforce_rate = 1.75
+                max_dig_in = 1.75
+                max_planning = 1.75
+                minimum_training_level = -1.75
+                mobilization_speed = 1.75
+                no_supply_grace = 1.75
+                non_core_manpower = 1.75
+                occupation_cost = -1.75
+                offence = 1.75
+                out_of_supply_factor = -1.75
+                partisan_effect = 1.75
+                planning_speed = 1.75
+                recon_factor = 1.75
+                supply_consumption_factor = -1.75
+                terrain_penalty_reduction = 1.75
+                winter_attrition_factor = -1.75
+                special_forces_cap = 1.75
+                special_forces_min = 1.75
+            }
+            state_modifier = {
+                compliance_gain = 1.75
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_army_lv6 = {
+            picture = generic_infantry_bonus
+            modifier = {
+                acclimatization_cold_climate_gain_factor = 2.0
+                acclimatization_hot_climate_gain_factor = 2.0
+                amphibious_invasion = 2.0
+                army_attack_factor = 2.0
+                army_core_attack_factor = 2.0
+                army_core_defence_factor = 2.0
+                army_defence_factor = 2.0
+                army_morale_factor = 2.0
+                army_org = 2.0
+                army_org_factor = 2.0
+                army_speed_factor = 2.0
+                attrition = -2.0
+                combat_width_factor = -2.0
+                compliance_growth_on_our_occupied_states = 2.0
+                conscription = 2.0
+                conscription_factor = 2.0
+                decryption_factor = 2.0
+                defence = 2.0
+                dig_in_speed = 2.0
+                dig_in_speed_factor = 2.0
+                encryption_factor = 2.0
+                enemy_partisan_effect = -2.0
+                female_divisional_commander_chance = 2.0
+                heat_attrition_factor = -2.0
+                invasion_preparation = -2.0
+                land_reinforce_rate = 2.0
+                max_dig_in = 2.0
+                max_planning = 2.0
+                minimum_training_level = -2.0
+                mobilization_speed = 2.0
+                no_supply_grace = 2.0
+                non_core_manpower = 2.0
+                occupation_cost = -2.0
+                offence = 2.0
+                out_of_supply_factor = -2.0
+                partisan_effect = 2.0
+                planning_speed = 2.0
+                recon_factor = 2.0
+                supply_consumption_factor = -2.0
+                terrain_penalty_reduction = 2.0
+                winter_attrition_factor = -2.0
+                special_forces_cap = 2.0
+                special_forces_min = 2.0
+            }
+            state_modifier = {
+                compliance_gain = 2.0
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_army_lv7 = {
+            picture = generic_infantry_bonus
+            modifier = {
+                acclimatization_cold_climate_gain_factor = 2.25
+                acclimatization_hot_climate_gain_factor = 2.25
+                amphibious_invasion = 2.25
+                army_attack_factor = 2.25
+                army_core_attack_factor = 2.25
+                army_core_defence_factor = 2.25
+                army_defence_factor = 2.25
+                army_morale_factor = 2.25
+                army_org = 2.25
+                army_org_factor = 2.25
+                army_speed_factor = 2.25
+                attrition = -2.25
+                combat_width_factor = -2.25
+                compliance_growth_on_our_occupied_states = 2.25
+                conscription = 2.25
+                conscription_factor = 2.25
+                decryption_factor = 2.25
+                defence = 2.25
+                dig_in_speed = 2.25
+                dig_in_speed_factor = 2.25
+                encryption_factor = 2.25
+                enemy_partisan_effect = -2.25
+                female_divisional_commander_chance = 2.25
+                heat_attrition_factor = -2.25
+                invasion_preparation = -2.25
+                land_reinforce_rate = 2.25
+                max_dig_in = 2.25
+                max_planning = 2.25
+                minimum_training_level = -2.25
+                mobilization_speed = 2.25
+                no_supply_grace = 2.25
+                non_core_manpower = 2.25
+                occupation_cost = -2.25
+                offence = 2.25
+                out_of_supply_factor = -2.25
+                partisan_effect = 2.25
+                planning_speed = 2.25
+                recon_factor = 2.25
+                supply_consumption_factor = -2.25
+                terrain_penalty_reduction = 2.25
+                winter_attrition_factor = -2.25
+                special_forces_cap = 2.25
+                special_forces_min = 2.25
+            }
+            state_modifier = {
+                compliance_gain = 2.25
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_army_lv8 = {
+            picture = generic_infantry_bonus
+            modifier = {
+                acclimatization_cold_climate_gain_factor = 2.50
+                acclimatization_hot_climate_gain_factor = 2.50
+                amphibious_invasion = 2.50
+                army_attack_factor = 2.50
+                army_core_attack_factor = 2.50
+                army_core_defence_factor = 2.50
+                army_defence_factor = 2.50
+                army_morale_factor = 2.50
+                army_org = 2.50
+                army_org_factor = 2.50
+                army_speed_factor = 2.50
+                attrition = -2.50
+                combat_width_factor = -2.50
+                compliance_growth_on_our_occupied_states = 2.50
+                conscription = 2.50
+                conscription_factor = 2.50
+                decryption_factor = 2.50
+                defence = 2.50
+                dig_in_speed = 2.50
+                dig_in_speed_factor = 2.50
+                encryption_factor = 2.50
+                enemy_partisan_effect = -2.50
+                female_divisional_commander_chance = 2.50
+                heat_attrition_factor = -2.50
+                invasion_preparation = -2.50
+                land_reinforce_rate = 2.50
+                max_dig_in = 2.50
+                max_planning = 2.50
+                minimum_training_level = -2.50
+                mobilization_speed = 2.50
+                no_supply_grace = 2.50
+                non_core_manpower = 2.50
+                occupation_cost = -2.50
+                offence = 2.50
+                out_of_supply_factor = -2.50
+                partisan_effect = 2.50
+                planning_speed = 2.50
+                recon_factor = 2.50
+                supply_consumption_factor = -2.50
+                terrain_penalty_reduction = 2.50
+                winter_attrition_factor = -2.50
+                special_forces_cap = 2.50
+                special_forces_min = 2.50
+            }
+            state_modifier = {
+                compliance_gain = 2.50
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_army_lv9 = {
+            picture = generic_infantry_bonus
+            modifier = {
+                acclimatization_cold_climate_gain_factor = 3.0
+                acclimatization_hot_climate_gain_factor = 3.0
+                amphibious_invasion = 3.0
+                army_attack_factor = 3.0
+                army_core_attack_factor = 3.0
+                army_core_defence_factor = 3.0
+                army_defence_factor = 3.0
+                army_morale_factor = 3.0
+                army_org = 3.0
+                army_org_factor = 3.0
+                army_speed_factor = 3.0
+                attrition = -3.0
+                combat_width_factor = -3.0
+                compliance_growth_on_our_occupied_states = 3.0
+                conscription = 3.0
+                conscription_factor = 3.0
+                decryption_factor = 3.0
+                defence = 3.0
+                dig_in_speed = 3.0
+                dig_in_speed_factor = 3.0
+                encryption_factor = 3.0
+                enemy_partisan_effect = -3.0
+                female_divisional_commander_chance = 3.0
+                heat_attrition_factor = -3.0
+                invasion_preparation = -3.0
+                land_reinforce_rate = 3.0
+                max_dig_in = 3.0
+                max_planning = 3.0
+                minimum_training_level = -3.0
+                mobilization_speed = 3.0
+                no_supply_grace = 3.0
+                non_core_manpower = 3.0
+                occupation_cost = -3.0
+                offence = 3.0
+                out_of_supply_factor = -3.0
+                partisan_effect = 3.0
+                planning_speed = 3.0
+                recon_factor = 3.0
+                supply_consumption_factor = -3.0
+                terrain_penalty_reduction = 3.0
+                winter_attrition_factor = -3.0
+                special_forces_cap = 3.0
+                special_forces_min = 3.0
+            }
+            state_modifier = {
+                compliance_gain = 3.0
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+
+    cheat_navy = {
+        law = yes
+        cheat_navy_lv0 = {
+            picture = generic_navy_bonus
+            modifier = {
+                amphibious_invasion = 0.0
+                carrier_capacity_penalty_reduction = -0.0
+                carrier_traffic = 0.0
+                convoy_escort_efficiency = 0.0
+                convoy_raiding_efficiency_factor = 0.0
+                invasion_preparation = -0.0
+                naval_coordination = 0.0
+                naval_detection = 0.0
+                naval_hit_chance = 0.0
+                naval_retreat_chance = 0.0
+                naval_retreat_speed = 0.0
+                naval_speed_factor = 0.0
+                naval_strike = 0.0
+                NAVAL_TORPEDO_RANGE_FACTOR = 0.0
+                navy_anti_air_attack_factor = 0.0
+                navy_capital_ship_defence_factor = 0.0
+                navy_carrier_air_targetting_factor = 0.0
+                navy_max_range_factor = 0.0
+                navy_org = 0.0
+                navy_org_factor = 0.0
+                navy_submarine_defence_factor = 0.0
+                navy_submarine_detection_factor = 0.0
+                navy_at_battle_start = 0.0
+                sortie_efficiency = 0.0
+                spotting_chance = 0.0
+                submarine_attack = 0.0
+            }
+            ai_will_do = {
+                factor = 0
+            }
+            default = yes
+        }
+        cheat_navy_lv1 = {
+            picture = generic_navy_bonus
+            modifier = {
+                amphibious_invasion = 0.01
+                carrier_capacity_penalty_reduction = -0.01
+                carrier_traffic = 0.01
+                convoy_escort_efficiency = 0.01
+                convoy_raiding_efficiency_factor = 0.01
+                naval_coordination = 0.01
+                naval_detection = 0.01
+                naval_hit_chance = 0.01
+                naval_retreat_chance = 0.01
+                naval_retreat_speed = 0.01
+                naval_speed_factor = 0.01
+                naval_strike = 0.01
+                NAVAL_TORPEDO_RANGE_FACTOR = 0.0
+                navy_anti_air_attack_factor = 0.01
+                navy_capital_ship_defence_factor = 0.01
+                navy_carrier_air_targetting_factor = 0.01
+                navy_max_range_factor = 0.01
+                navy_org = 0.01
+                navy_org_factor = 0.01
+                navy_submarine_defence_factor = 0.01
+                navy_submarine_detection_factor = 0.01
+                navy_at_battle_start = 0.01
+                sortie_efficiency = 0.01
+                spotting_chance = 0.01
+                submarine_attack = 0.01
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_navy_lv2 = {
+            picture = generic_navy_bonus
+            modifier = {
+                convoy_escort_efficiency = 0.10
+                convoy_raiding_efficiency_factor = 0.10
+                naval_coordination = 0.10
+                naval_hit_chance = 0.10
+                naval_retreat_chance = 0.10
+                naval_retreat_speed = 0.10
+                naval_speed_factor = 0.10
+                navy_anti_air_attack_factor = 0.10
+                navy_capital_ship_defence_factor = 0.10
+                navy_carrier_air_targetting_factor = 0.10
+                navy_max_range_factor = 0.10
+                navy_submarine_detection_factor = 0.10
+                navy_at_battle_start = 0.10
+                sortie_efficiency = 0.10
+                spotting_chance = 0.10
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_navy_lv3 = {
+            picture = generic_navy_bonus
+            modifier = {
+		    industrial_capacity_dockyard = 5
+                convoy_escort_efficiency = 0.50
+                convoy_raiding_efficiency_factor = 0.50
+                naval_coordination = 0.50
+                naval_hit_chance = 0.50
+                naval_retreat_chance = 0.50
+                naval_retreat_speed = 0.50
+                naval_speed_factor = 0.50
+                navy_anti_air_attack_factor = 0.50
+                navy_capital_ship_defence_factor = 0.50
+                navy_carrier_air_targetting_factor = 0.50
+                navy_max_range_factor = 0.50
+                navy_submarine_detection_factor = 0.50
+                navy_at_battle_start = 0.50
+                sortie_efficiency = 0.50
+                spotting_chance = 0.50
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_navy_lv4 = {
+            picture = generic_navy_bonus
+            modifier = {
+                convoy_escort_efficiency = 0.75
+                convoy_raiding_efficiency_factor = 0.75
+                naval_coordination = 0.75
+                naval_hit_chance = 0.75
+                naval_retreat_chance = 0.75
+                naval_retreat_speed = 0.75
+                naval_speed_factor = 0.75
+                navy_anti_air_attack_factor = 0.75
+                navy_capital_ship_defence_factor = 0.75
+                navy_carrier_air_targetting_factor = 0.75
+                navy_max_range_factor = 0.75
+                navy_submarine_detection_factor = 0.75
+                navy_at_battle_start = 0.75
+                sortie_efficiency = 0.75
+                spotting_chance = 0.75
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_navy_lv5 = {
+            picture = generic_navy_bonus
+            modifier = {
+                convoy_escort_efficiency = 1.75
+                convoy_raiding_efficiency_factor = 1.75
+                naval_coordination = 1.75
+                naval_hit_chance = 1.75
+                naval_retreat_chance = 1.75
+                naval_retreat_speed = 1.75
+                naval_speed_factor = 1.75
+                navy_anti_air_attack_factor = 1.75
+                navy_capital_ship_defence_factor = 1.75
+                navy_carrier_air_targetting_factor = 1.75
+                navy_max_range_factor = 1.75
+                navy_submarine_detection_factor = 1.75
+                navy_at_battle_start = 1.75
+                sortie_efficiency = 1.75
+                spotting_chance = 1.75
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_navy_lv6 = {
+            picture = generic_navy_bonus
+            modifier = {
+                convoy_escort_efficiency = 2.0
+                convoy_raiding_efficiency_factor = 2.0
+                naval_coordination = 2.0
+                naval_hit_chance = 2.0
+                naval_retreat_chance = 2.0
+                naval_retreat_speed = 2.0
+                naval_speed_factor = 2.0
+                navy_anti_air_attack_factor = 2.0
+                navy_capital_ship_defence_factor = 2.0
+                navy_carrier_air_targetting_factor = 2.0
+                navy_max_range_factor = 2.0
+                navy_submarine_detection_factor = 2.0
+                navy_at_battle_start = 2.0
+                sortie_efficiency = 2.0
+                spotting_chance = 2.0
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_navy_lv7 = {
+            picture = generic_navy_bonus
+            modifier = {
+                convoy_escort_efficiency = 2.25
+                convoy_raiding_efficiency_factor = 2.25
+                naval_coordination = 2.25
+                naval_hit_chance = 2.25
+                naval_retreat_chance = 2.25
+                naval_retreat_speed = 2.25
+                naval_speed_factor = 2.25
+                navy_anti_air_attack_factor = 2.25
+                navy_capital_ship_defence_factor = 2.25
+                navy_carrier_air_targetting_factor = 2.25
+                navy_max_range_factor = 2.25
+                navy_submarine_detection_factor = 2.25
+                navy_at_battle_start = 2.25
+                sortie_efficiency = 2.25
+                spotting_chance = 2.25
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_navy_lv8 = {
+            picture = generic_navy_bonus
+            modifier = {
+                convoy_escort_efficiency = 2.50
+                convoy_raiding_efficiency_factor = 2.50
+                naval_coordination = 2.50
+                naval_hit_chance = 2.50
+                naval_retreat_chance = 2.50
+                naval_retreat_speed = 2.50
+                naval_speed_factor = 2.50
+                navy_anti_air_attack_factor = 2.50
+                navy_capital_ship_defence_factor = 2.50
+                navy_carrier_air_targetting_factor = 2.50
+                navy_max_range_factor = 2.50
+                navy_submarine_detection_factor = 2.50
+                navy_at_battle_start = 2.50
+                sortie_efficiency = 2.50
+                spotting_chance = 2.50
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_navy_lv9 = {
+            picture = generic_navy_bonus
+            modifier = {
+                convoy_escort_efficiency = 3.0
+                convoy_raiding_efficiency_factor = 3.0
+                naval_coordination = 3.0
+                naval_hit_chance = 3.0
+                naval_retreat_chance = 3.0
+                naval_retreat_speed = 3.0
+                naval_speed_factor = 3.0
+                navy_anti_air_attack_factor = 3.0
+                navy_capital_ship_defence_factor = 3.0
+                navy_carrier_air_targetting_factor = 3.0
+                navy_max_range_factor = 3.0
+                navy_submarine_detection_factor = 3.0
+                navy_at_battle_start = 3.0
+                sortie_efficiency = 3.0
+                spotting_chance = 3.0
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+
+    cheat_special_forces = {
+        law = yes
+        cheat_special_forces_lv0 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                special_forces_attack_factor = 0.0
+                special_forces_defence_factor = 0.0
+                special_forces_cap = 0.0
+                special_forces_min = 0.0
+            }
+            ai_will_do = {
+                factor = 0
+            }
+            default = yes
+        }
+        cheat_special_forces_lv1 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                special_forces_attack_factor = 0.01
+                special_forces_defence_factor = 0.01
+                special_forces_cap = 0.01
+                special_forces_min = 0.01
+            }
+        }
+        cheat_special_forces_lv2 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                special_forces_attack_factor = 0.10
+                special_forces_defence_factor = 0.10
+                special_forces_cap = 0.10
+                special_forces_min = 0.10
+            }
+        }
+        cheat_special_forces_lv3 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                special_forces_attack_factor = 0.50
+                special_forces_defence_factor = 0.50
+                special_forces_cap = 0.50
+                special_forces_min = 0.50
+            }
+        }
+        cheat_special_forces_lv4 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                special_forces_attack_factor = 0.75
+                special_forces_defence_factor = 0.75
+                special_forces_cap = 0.75
+                special_forces_min = 0.75
+            }
+        }
+        cheat_special_forces_lv5 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                special_forces_attack_factor = 1.75
+                special_forces_defence_factor = 1.75
+                special_forces_cap = 1.75
+                special_forces_min = 1.75
+            }
+        }
+        cheat_special_forces_lv6 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                special_forces_attack_factor = 2.0
+                special_forces_defence_factor = 2.0
+                special_forces_cap = 2.0
+                special_forces_min = 2.0
+            }
+        }
+        cheat_special_forces_lv7 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                special_forces_attack_factor = 2.25
+                special_forces_defence_factor = 2.25
+                special_forces_cap = 2.25
+                special_forces_min = 2.25
+            }
+        }
+        cheat_special_forces_lv8 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                special_forces_attack_factor = 2.50
+                special_forces_defence_factor = 2.50
+                special_forces_cap = 2.50
+                special_forces_min = 2.50
+            }
+        }
+        cheat_special_forces_lv9 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                special_forces_attack_factor = 3.0
+                special_forces_defence_factor = 3.0
+                special_forces_cap = 3.0
+                special_forces_min = 3.0
+            }
+        }
+    }
+
+}

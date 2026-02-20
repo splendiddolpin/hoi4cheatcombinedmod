@@ -1,0 +1,32 @@
+﻿l_spanish:
+###Modifier Decisions
+ scd_cheats:0 "TRAMPA DE DECISIONES"
+ scd_cheats_desc:0 "Este grupo de decisión contiene varios trucos."
+ research_cheat:0 "Truco de investigación ACTIVADO"
+ research_cheat_off:0 "Truco de investigación DESACTIVADO"
+ construction_cheat:0 "Truco de construcción ACTIVADO"
+ construction_cheat_off:0 "Truco de construcción DESACTIVADO"
+ production_cheat:0 "Truco de producción ACTIVADO"
+ production_cheat_off:0 "Truco de producción DESACTIVADO"
+ manpower_cheat:0 "Truco de mano de obra ACTIVADO"
+ manpower_cheat_off:0 "Truco de mano de obra DESACTIVADO"
+ operation_cheat:0 "Trampa de operación ACTIVADO"
+ operation_cheat_off:0 "Trampa de operación DESACTIVADO"
+ cheat_communism:0 "Impulsar el Comunismo"
+ cheat_fascism:0 "Impulsar el Fascismo"
+ cheat_democracy:0 "Impulsar la Democracia"
+ cheat_neutrality:0 "Aumenta la neutralidad"
+ cheat_disable_ideology:0 "Desactivar Impulso de ideología"
+ cheat_ideology_drift_def_lite:0 "Defensa ante cambios de ideología media"
+ cheat_ideology_drift_def_full:0 "Defensa ante cambios de ideología completa"
+ cheat_disable_drift:0 "Desactivar defensa ante cambios de ideología"
+ 
+###Instant Decisions
+ country_cheat:0 "Truco de País"
+
+###Ideas
+ research_cheat_idea:0 "Truco de investigación"
+ construction_cheat_idea:0 "Truco de construcción"
+ production_cheat_idea:0 "Truco de producción"
+ manpower_cheat_idea:0 "Truco de mano de obra"
+ operation_cheat_idea:0 "Truco de operación"

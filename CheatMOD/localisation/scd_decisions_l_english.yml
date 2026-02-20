@@ -1,0 +1,32 @@
+﻿l_english:
+###Modifier Decisions
+ scd_cheats:0 "CHEAT DECISIONS"
+ scd_cheats_desc:0 "This decision group contains various cheats."
+ research_cheat:0 "Research Cheat ON"
+ research_cheat_off:0 "Research Cheat OFF"
+ construction_cheat:0 "Construciton Cheat ON"
+ construction_cheat_off:0 "Construction Cheat OFF"
+ production_cheat:0 "Production Cheat ON"
+ production_cheat_off:0 "Production Cheat OFF"
+ manpower_cheat:0 "Manpower Cheat ON"
+ manpower_cheat_off:0 "Manpower Cheat OFF"
+ operation_cheat:0 "Operation Cheat ON"
+ operation_cheat_off:0 "Operation Cheat OFF"
+ cheat_communism:0 "Boost Communism"
+ cheat_fascism:0 "Boost Fascism"
+ cheat_democracy:0 "Boost Democracy"
+ cheat_neutrality:0 "Boost Neutrality"
+ cheat_disable_ideology:0 "Disable Ideology Boost Cheat"
+ cheat_ideology_drift_def_lite:0 "Ideology Drift Defense Lite"
+ cheat_ideology_drift_def_full:0 "Ideology Drift Defense Full"
+ cheat_disable_drift:0 "Disable Drift Defense Cheat"
+
+###Instant Decisions
+ country_cheat:0 "Country Cheat"
+ 
+###Ideas
+ research_cheat_idea:0 "Research Cheat"
+ construction_cheat_idea:0 "Construcion Cheat"
+ production_cheat_idea:0 "Produciton Cheat"
+ manpower_cheat_idea:0 "Manpower Cheat"
+ operation_cheat_idea:0 "Operation Cheat"

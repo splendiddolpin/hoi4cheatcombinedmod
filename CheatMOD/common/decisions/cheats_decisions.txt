@@ -1,0 +1,1183 @@
+cheat_decisions = {
+###Toggle
+    cheat_on = {
+
+        icon = generic_political_actions
+
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        visible = {
+            NOT = { has_country_flag = cheat_on }
+        }
+
+        complete_effect = {
+            set_country_flag = cheat_on
+        }
+
+    }
+    cheat_off = {
+
+        icon = generic_political_actions
+
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        visible = {
+            has_country_flag = cheat_on
+        }
+
+        complete_effect = {
+            clr_country_flag = cheat_on
+        }
+
+    }
+}
+
+cheat_decisions = {
+###Politics Switch
+    md_on = {
+
+        icon = generic_political_actions
+
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        visible = {
+            has_country_flag = cheat_on
+            NOT = { has_country_flag = owb_on }
+            NOT = { has_country_flag = md_on }
+            NOT = { has_country_flag = gw_on }
+            NOT = { has_country_flag = tno_on }
+            NOT = { has_country_flag = ksr_on }
+            NOT = { has_country_flag = eaw_on }
+        }
+
+        complete_effect = {
+            set_country_flag = md_on
+        }
+
+    }
+    md_off = {
+
+        icon = generic_political_actions
+
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        visible = {
+            has_country_flag = cheat_on
+            has_country_flag = md_on
+        }
+
+        complete_effect = {
+            clr_country_flag = md_on
+        }
+
+    }
+
+    owb_on = {
+
+        icon = generic_political_actions
+
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        visible = {
+            has_country_flag = cheat_on
+            NOT = { has_country_flag = md_on }
+            NOT = { has_country_flag = owb_on }
+            NOT = { has_country_flag = gw_on }
+            NOT = { has_country_flag = tno_on }
+            NOT = { has_country_flag = ksr_on }
+            NOT = { has_country_flag = eaw_on }
+        }
+
+        complete_effect = {
+            set_country_flag = owb_on
+        }
+
+    }
+    owb_off = {
+
+        icon = generic_political_actions
+
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        visible = {
+            has_country_flag = cheat_on
+            has_country_flag = owb_on
+        }
+
+        complete_effect = {
+            clr_country_flag = owb_on
+        }
+
+    }
+
+    gw_on = {
+
+        icon = generic_political_actions
+
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        visible = {
+            has_country_flag = cheat_on
+            NOT = { has_country_flag = md_on }
+            NOT = { has_country_flag = owb_on }
+            NOT = { has_country_flag = gw_on }
+            NOT = { has_country_flag = tno_on }
+            NOT = { has_country_flag = ksr_on }
+            NOT = { has_country_flag = eaw_on }
+        }
+
+        complete_effect = {
+            set_country_flag = gw_on
+        }
+
+    }
+    gw_off = {
+
+        icon = generic_political_actions
+
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        visible = {
+            has_country_flag = cheat_on
+            has_country_flag = gw_on
+        }
+
+        complete_effect = {
+            clr_country_flag = gw_on
+        }
+
+    }
+
+    tno_on = {
+
+        icon = generic_political_actions
+
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        visible = {
+            has_country_flag = cheat_on
+            NOT = { has_country_flag = md_on }
+            NOT = { has_country_flag = owb_on }
+            NOT = { has_country_flag = gw_on }
+            NOT = { has_country_flag = tno_on }
+            NOT = { has_country_flag = ksr_on }
+            NOT = { has_country_flag = eaw_on }
+        }
+
+        complete_effect = {
+            set_country_flag = gw_on
+        }
+
+    }
+    tno_off = {
+
+        icon = generic_political_actions
+
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        visible = {
+            has_country_flag = cheat_on
+            has_country_flag = tno_on
+        }
+
+        complete_effect = {
+            clr_country_flag = tno_on
+        }
+
+    }
+
+    ksr_on = {
+
+        icon = generic_political_actions
+
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        visible = {
+            has_country_flag = cheat_on
+            NOT = { has_country_flag = md_on }
+            NOT = { has_country_flag = owb_on }
+            NOT = { has_country_flag = gw_on }
+            NOT = { has_country_flag = tno_on }
+            NOT = { has_country_flag = ksr_on }
+            NOT = { has_country_flag = eaw_on }
+        }
+
+        complete_effect = {
+            set_country_flag = ksr_on
+        }
+
+    }
+    ksr_off = {
+
+        icon = generic_political_actions
+
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        visible = {
+            has_country_flag = cheat_on
+            has_country_flag = ksr_on
+        }
+
+        complete_effect = {
+            clr_country_flag = ksr_on
+        }
+
+    }
+
+    eaw_on = {
+
+        icon = generic_political_actions
+
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        visible = {
+            has_country_flag = cheat_on
+            NOT = { has_country_flag = md_on }
+            NOT = { has_country_flag = owb_on }
+            NOT = { has_country_flag = gw_on }
+            NOT = { has_country_flag = tno_on }
+            NOT = { has_country_flag = ksr_on }
+            NOT = { has_country_flag = eaw_on }
+        }
+
+        complete_effect = {
+            set_country_flag = eaw_on
+        }
+
+    }
+    eaw_off = {
+
+        icon = generic_political_actions
+
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        visible = {
+            has_country_flag = cheat_on
+            has_country_flag = eaw_on
+        }
+
+        complete_effect = {
+            clr_country_flag = eaw_on
+        }
+
+    }
+
+    cheats_event = {
+
+        icon = generic_political_actions
+
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        visible = {
+            has_country_flag = cheat_on
+        }
+
+        complete_effect = {
+            country_event = Cheats.1
+        }
+
+    }
+
+    air_base_cheat = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+        }
+        cost = 0
+        complete_effect = {
+            every_state = {
+                limit = { is_controlled_by = ROOT }
+                add_building_construction = {
+                    type = air_base
+                    level = 10
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    anti_air_cheat = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+        }
+        cost = 0
+        complete_effect = {
+            every_state = {
+                limit = { is_controlled_by = ROOT }
+                add_building_construction = {
+                    type = anti_air_building
+                    level = 10
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    infrastructure_cheat = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+        }
+        cost = 0
+        complete_effect = {
+            every_state = {
+                limit = { is_controlled_by = ROOT }
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    radar_building_cheat = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+        }
+        cost = 0
+        complete_effect = {
+            every_state = {
+                limit = { is_controlled_by = ROOT }
+                add_building_construction = {
+                    type = radar_building
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+###Technology Cheats
+    special_infantry_cheat = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+        }
+        cost = 0
+        complete_effect = {
+            set_technology = { special_infantry = 1}
+		}
+    }
+
+    tank_cheat = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+        }
+        cost = 0
+        complete_effect = {
+            set_technology = { gwtank = 1 basic_light_tank = 1 basic_medium_tank = 1 basic_heavy_tank = 1 }
+        }
+    }
+
+    tank_DLC_cheat = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+        }
+        cost = 0
+        complete_effect = {
+            set_technology = { gwtank_chassis = 1 basic_light_tank_chassis = 1 basic_medium_tank_chassis = 1 basic_heavy_tank_chassis = 1 }
+        }
+    }
+
+    plane_cheat = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+        }
+        cost = 0
+        complete_effect = {
+            set_technology = { early_fighter = 1 cv_early_fighter = 1 fighter1 = 1 cv_fighter1 = 1 CAS1 = 1 cv_CAS1 = 1 naval_bomber1 = 1 cv_naval_bomber1 = 1 early_bomber1 = 1 heavy_fighter = 1 scout_plane1 = 1 tactical_bomber1 = 1 strategic_bomber1 = 1 }
+        }
+    }
+
+    plane_DLC_cheat = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+        }
+        cost = 0
+        complete_effect = {
+            set_technology = { iw_small_airframe = 1 basic_small_airframe = 1 iw_medium_airframe = 1 basic_medium_airframe = 1 iw_large_airframe = 1 basic_large_airframe = 1 }
+        }
+
+    }
+
+    ship_cheat = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+        }
+        cost = 0
+        complete_effect = {
+            set_technology = { early_destroyer = 1 basic_destroyer = 1 early_light_cruiser = 1 basic_light_cruiser = 1 early_heavy_cruiser = 1 basic_heavy_cruiser = 1 early_battlecruiser = 1 basic_battlecruiser = 1 early_battleship = 1 basic_battlship = 1 early_carrier = 1 basic_carrier = 1 early_submarine = 1 basic_submarine = 1 }
+        }
+    }
+
+    ship_DLC_cheat = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+        }
+        cost = 0
+        complete_effect = {
+            set_technology = { early_ship_hull_light = 1 basic_ship_hull_light = 1 early_ship_hull_cruiser = 1 basic_ship_hull_cruiser = 1 early_ship_hull_heavy = 1 basic_ship_hull_heavy = 1 early_ship_hull_carrier = 1 basic_ship_hull_carrier = 1 early_ship_hull_submarine = 1 basic_ship_hull_submarine = 1 }
+        }
+    }
+
+    snowflake_ships_cheat = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+        }
+        cost = 0
+        complete_effect = {
+            set_technology = { pre_dreadnoughts = 1 torpedo_cruiser = 1 coastal_defense_ships = 1 }
+        }
+    }
+###Mega Cheat
+    cheat_1 = {
+        icon = generic_political_actions
+        allowed = { always = yes }
+        available = { is_ai = no }
+        visible = {
+            has_country_flag = cheats_on
+            NOT = { has_country_flag = cheat_1 }
+        }
+        cost = 0
+        complete_effect = { set_country_flag = cheat_1 add_ideas = cheat_all }
+        ai_will_do = { factor = 0 }
+    }
+    cheat_0 = {
+        icon = generic_political_actions
+        allowed = { always = yes }
+        available = { is_ai = no }
+        visible = {
+            has_country_flag = cheats_on
+            has_country_flag = cheat_1
+        }
+        cost = 0
+        complete_effect = { clr_country_flag = cheat_1 remove_ideas = cheat_all }
+        ai_will_do = { factor = 0 }
+    }
+        
+###Research Cheat
+    add_research_cheat = {
+        icon = generic_research
+        allowed = { always = yes }
+        available = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+            NOT = { has_country_flag = research_cheat_on }
+        }
+        cost = 0
+        complete_effect = { set_country_flag = research_cheat_on add_ideas = research_cheat_idea }
+        ai_will_do = { factor = 0 }
+    }
+    remove_research_cheat = {
+        icon = generic_research
+        allowed = { always = yes }
+        available = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+            has_country_flag = research_cheat_on
+        }
+        cost = 0
+        complete_effect = { clr_country_flag = research_cheat_on remove_ideas = research_cheat_idea }
+        ai_will_do = { factor = 0 }
+    }
+    
+###Construction Cheat
+    add_construction_cheat = {
+        icon = generic_construction
+        allowed = { always = yes }
+        available = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+            NOT = { has_country_flag = construction_cheat_on }
+        }
+        cost = 0
+        complete_effect = { set_country_flag = construction_cheat_on add_ideas = construction_cheat_idea }
+        ai_will_do = { factor = 0 }
+    }
+    remove_construction_cheat = {
+        icon = generic_construction
+        allowed = { always = yes }
+        available = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+            has_country_flag = construction_cheat_on
+        }
+        cost = 0
+        complete_effect = { clr_country_flag = construction_cheat_on remove_ideas = construction_cheat_idea }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+###Production Cheat
+    add_production_cheat = {
+        icon = generic_industry
+        allowed = { always = yes }
+        available = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+            NOT = { has_country_flag = production_cheat_on }
+        }
+        cost = 0
+        complete_effect = { set_country_flag = production_cheat_on add_ideas = production_cheat_idea }
+        ai_will_do = { factor = 0 }
+    }
+    remove_production_cheat = {
+        icon = generic_industry
+        allowed = { always = yes }
+        available = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+            has_country_flag = production_cheat_on
+        }
+        cost = 0
+        complete_effect = { clr_country_flag = production_cheat_on remove_ideas = production_cheat_idea }
+        ai_will_do = { factor = 0 }
+    }
+    
+###Manpower Cheat
+    add_manpower_cheat = {
+        icon = generic_civil_support
+        allowed = {
+            always = yes
+        }
+        available = {
+            is_ai = no
+        }
+        visible = {
+            has_country_flag = cheat_on
+            NOT = {
+                has_country_flag = manpower_cheat_on
+            }
+        }
+        cost = 0
+        complete_effect = {
+            set_country_flag = manpower_cheat_on
+            add_ideas = manpower_cheat_idea
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    remove_manpower_cheat = {
+
+        icon = generic_civil_support
+
+        allowed = {
+            always = yes
+        }
+
+        available = {
+            is_ai = no
+        }
+
+        visible = {
+            has_country_flag = cheat_on
+            has_country_flag = manpower_cheat_on
+        }
+        
+        cost = 0
+
+        complete_effect = {
+            clr_country_flag = manpower_cheat_on
+            remove_ideas = manpower_cheat_idea
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    
+###Operation Cheat
+    add_operation_cheat = {
+
+        icon = generic_operation
+
+        allowed = {
+            always = yes
+        }
+
+        available = {
+            is_ai = no
+        }
+
+        visible = {
+            has_country_flag = cheat_on
+            NOT = {
+                has_country_flag = operation_cheat_on
+            }
+        }
+        
+        cost = 0
+
+        complete_effect = {
+            set_country_flag = operation_cheat_on
+            add_ideas = operation_cheat_idea
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    remove_operation_cheat = {
+
+        icon = generic_operation
+
+        allowed = {
+            always = yes
+        }
+
+        available = {
+            is_ai = no
+        }
+
+        visible = {
+            has_country_flag = cheat_on
+            has_country_flag = operation_cheat_on
+        }
+        
+        cost = 0
+
+        complete_effect = {
+            clr_country_flag = operation_cheat_on
+            remove_ideas = operation_cheat_idea
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+###Ideology Cheat
+    cheat_democracy = {
+        icon = generic_democracy
+        available = {
+            NOT = { has_decision = cheat_communism }
+            NOT = { has_decision = cheat_fascism }
+            NOT = { has_decision = cheat_neutrality }
+        }
+        visible = {
+            has_country_flag = cheat_on
+            NOT = { has_country_flag = md_on }
+            NOT = { has_country_flag = owb_on }
+            NOT = { has_country_flag = gw_on }
+            NOT = { has_country_flag = tno_on }
+            NOT = { has_country_flag = ksr_on }
+            NOT = { has_country_flag = eaw_on }
+        }
+        fire_only_once = no
+        days_remove = 9999
+        days_re_enable = 0
+        cost = 0
+        remove_trigger = {
+            has_decision = cheat_disable_ideology
+        }
+        modifier = {
+            democratic_drift = 99.99
+            fascism_drift = -99.99
+            communism_drift = -99.99
+            neutrality_drift = -99.99
+        }
+
+    }
+    cheat_communism = {
+        icon = generic_communism
+        available = {
+            NOT = { has_decision = cheat_democracy }
+            NOT = { has_decision = cheat_fascism }
+            NOT = { has_decision = cheat_neutrality }
+        }
+        visible = {
+            has_country_flag = cheat_on
+            NOT = { has_country_flag = md_on }
+            NOT = { has_country_flag = owb_on }
+            NOT = { has_country_flag = gw_on }
+            NOT = { has_country_flag = tno_on }
+            NOT = { has_country_flag = ksr_on }
+            NOT = { has_country_flag = eaw_on }
+        }
+
+        fire_only_once = no
+        days_remove = 9999
+        days_re_enable = 0
+        cost = 0
+        remove_trigger = {
+            has_decision = cheat_disable_ideology
+        }
+        modifier = {
+            democratic_drift = -99.99
+            fascism_drift = -99.99
+            communism_drift = 99.99
+            neutrality_drift = -99.99
+        }
+
+    }
+    cheat_fascism = {
+        icon = generic_fascism
+        available = {
+            NOT = { has_decision = cheat_communism }
+            NOT = { has_decision = cheat_democracy }
+            NOT = { has_decision = cheat_neutrality }
+        }
+        visible = {
+            has_country_flag = cheat_on
+            NOT = { has_country_flag = md_on }
+            NOT = { has_country_flag = owb_on }
+            NOT = { has_country_flag = gw_on }
+            NOT = { has_country_flag = tno_on }
+            NOT = { has_country_flag = ksr_on }
+            NOT = { has_country_flag = eaw_on }
+        }
+
+        fire_only_once = no
+        days_remove = 9999
+        days_re_enable = 0
+        cost = 0
+        remove_trigger = {
+            has_decision = cheat_disable_ideology
+        }
+        modifier = {
+            democratic_drift = -99.99
+            fascism_drift = 99.99
+            communism_drift = -99.99
+            neutrality_drift = -99.99
+        }
+    }
+    cheat_neutrality = {
+        icon =  generic_monarchism
+        available = {
+            NOT = { has_decision = cheat_communism }
+            NOT = { has_decision = cheat_fascism }
+            NOT = { has_decision = cheat_democracy }
+        }
+        visible = {
+            has_country_flag = cheat_on
+            NOT = { has_country_flag = md_on }
+            NOT = { has_country_flag = owb_on }
+            NOT = { has_country_flag = gw_on }
+            NOT = { has_country_flag = tno_on }
+            NOT = { has_country_flag = ksr_on }
+            NOT = { has_country_flag = eaw_on }
+        }
+        fire_only_once = no
+        days_remove = 9999
+        days_re_enable = 0
+        cost = 0
+        remove_trigger = {
+            has_decision = cheat_disable_ideology
+        }
+        modifier = {
+            democratic_drift = -99.99
+            fascism_drift = -99.99
+            communism_drift = -99.99
+            neutrality_drift = 99.99
+        }
+    }
+    cheat_disable_ideology = {
+        icon = generic_political_actions
+        available = { }
+        visible = { has_country_flag = cheat_on }
+        fire_only_once = no
+        days_remove = 5
+        days_re_enable = 0
+        cost = 0
+        modifier = { }
+    }
+
+###OLD WORLD BLUES Ideology Cheat
+    cheat_people = {
+        icon = generic_democracy
+        available = {
+            NOT = { has_decision = cheat_intellectuals }
+            NOT = { has_decision = cheat_elites }
+            NOT = { has_decision = cheat_ruler }
+        }
+        visible = { has_country_flag = owb_on }
+        fire_only_once = no
+        days_remove = 9999
+        days_re_enable = 0
+        cost = 0
+        remove_trigger = {
+            has_decision = cheat_disable_ideology
+        }
+        modifier = {
+            people_drift = 99.99
+            elites_drift = -99.99
+            intellectuals_drift = -99.99
+            ruler_drift = -99.99
+        }
+
+    }
+    cheat_intellectuals = {
+        icon = generic_communism
+        available = {
+            NOT = { has_decision = cheat_people }
+            NOT = { has_decision = cheat_elites }
+            NOT = { has_decision = cheat_ruler }
+        }
+        visible = { has_country_flag = owb_on }
+
+        fire_only_once = no
+        days_remove = 9999
+        days_re_enable = 0
+        cost = 0
+        remove_trigger = {
+            has_decision = cheat_disable_ideology
+        }
+        modifier = {
+            people_drift = -99.99
+            elites_drift = -99.99
+            intellectuals_drift = 99.99
+            ruler_drift = -99.99
+        }
+
+    }
+    cheat_elites = {
+        icon = generic_fascism
+        available = {
+            NOT = { has_decision = cheat_intellectuals }
+            NOT = { has_decision = cheat_people }
+            NOT = { has_decision = cheat_ruler }
+        }
+        visible = { has_country_flag = owb_on }
+        fire_only_once = no
+        days_remove = 9999
+        days_re_enable = 0
+        cost = 0
+        remove_trigger = {
+            has_decision = cheat_disable_ideology
+        }
+        modifier = {
+            people_drift = -99.99
+            elites_drift = 99.99
+            intellectuals_drift = -99.99
+            ruler_drift = -99.99
+        }
+    }
+    cheat_ruler = {
+        icon =  generic_monarchism
+        available = {
+            NOT = { has_decision = cheat_intellectuals }
+            NOT = { has_decision = cheat_elites }
+            NOT = { has_decision = cheat_people }
+        }
+        visible = { has_country_flag = owb_on }
+        fire_only_once = no
+        days_remove = 9999
+        days_re_enable = 0
+        cost = 0
+        remove_trigger = {
+            has_decision = cheat_disable_ideology
+        }
+        modifier = {
+            people_drift = -99.99
+            elites_drift = -99.99
+            intellectuals_drift = -99.99
+            ruler_drift = 99.99
+        }
+    }
+
+###Ideology Drift Cheat
+    cheat_ideology_drift_def_lite = {
+        icon = generic_civil_support
+        available = {
+            NOT = { has_decision = cheat_ideology_drift_def_full }
+        }
+        visible = { has_country_flag = cheat_on }
+        fire_only_once = no
+        days_remove = 9999
+        days_re_enable = 0
+        cost = 0
+        remove_trigger = {
+            has_decision = cheat_disable_drift
+        }
+        modifier = {
+            drift_defence_factor = 0.50
+        }
+    }
+
+    cheat_ideology_drift_def_full = {
+        icon = generic_civil_support
+        available = {
+            NOT = { has_decision = cheat_ideology_drift_def_lite }
+        }
+        visible = { has_country_flag = cheat_on }
+        fire_only_once = no
+        days_remove = 9999
+        days_re_enable = 0
+        cost = 0
+        remove_trigger = {
+            has_decision = cheat_disable_drift
+        }
+        modifier = {
+            drift_defence_factor = 9.99
+        }
+    }
+
+    cheat_disable_drift = {
+        icon = generic_political_actions
+        available = { }
+        visible = { has_country_flag = cheat_on }
+        fire_only_once = no
+        days_remove = 5
+        days_re_enable = 0
+        cost = 0
+        modifier = { }
+    }
+    
+###Country Cheat
+    points_cheat = {
+
+        icon = generic_decision
+        
+        fire_only_once = no
+
+        allowed = {
+            always = yes
+        }
+
+        available = {
+            is_ai = no
+        }
+
+        visible = {
+            has_country_flag = cheat_on
+        }
+        
+        cost = 0
+
+        complete_effect = {
+            add_command_power = 1000
+            add_political_power = 1000
+            army_experience = 1000
+            navy_experience = 1000
+            air_experience = 1000
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    
+###Leader Cheat
+    leader_armor_cheat = {
+
+        icon = generic_decision
+        
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        visible = {
+            has_country_flag = cheat_on
+        }
+        
+        cost = 0
+
+        complete_effect = {
+            every_army_leader = {
+                add_unit_leader_trait = armor_officer
+                remove_unit_leader_trait = old_guard
+                remove_unit_leader_trait = politically_connected
+                remove_unit_leader_trait = media_personality
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    leader_cavalry_cheat = {
+
+        icon = generic_decision
+        
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        visible = {
+            has_country_flag = cheat_on
+        }
+        
+        cost = 0
+
+        complete_effect = {
+            every_army_leader = {
+                add_unit_leader_trait = cavalry_officer
+                remove_unit_leader_trait = old_guard
+                remove_unit_leader_trait = politically_connected
+                remove_unit_leader_trait = media_personality
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    leader_infantry_cheat = {
+
+        icon = generic_decision
+        
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        visible = {
+            has_country_flag = cheat_on
+        }
+        
+        cost = 0
+
+        complete_effect = {
+            every_army_leader = {
+                add_unit_leader_trait = infantry_officer
+                remove_unit_leader_trait = old_guard
+                remove_unit_leader_trait = politically_connected
+                remove_unit_leader_trait = media_personality
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    leader_command_cheat = {
+
+        icon = generic_decision
+        
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        visible = {
+            has_country_flag = cheat_on
+        }
+        
+        cost = 0
+
+        complete_effect = {
+            every_army_leader = {
+                add_unit_leader_trait = skilled_staffer
+                add_unit_leader_trait = ctrl_more_troops
+                remove_unit_leader_trait = old_guard
+                remove_unit_leader_trait = politically_connected
+                remove_unit_leader_trait = media_personality
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+}

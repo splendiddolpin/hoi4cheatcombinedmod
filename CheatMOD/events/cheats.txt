@@ -1,0 +1,1356 @@
+﻿add_namespace = Cheats
+
+country_event = {
+    id = Cheats.1
+    title = Cheats.1.t
+    desc = Cheats.1.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = {
+        days = 0
+    }
+
+    immediate = {
+        hidden_effect = { remove_ideas = cheat_open_cheat }
+    }
+
+#    option = {
+#        name = Cheats.1.a
+#        country_event = Cheats.10
+#    }
+    option = {
+        name = Cheats.1.b
+        country_event = Cheats.20
+    }
+    option = {
+        name = Cheats.1.c
+        country_event = Cheats.30
+    }
+    option = {
+        name = Cheats.1.d
+        country_event = Cheats.40
+    }
+#    option = {
+#        name = Cheats.1.e
+#        country_event = Cheats.50
+#    }
+    option = {
+        name = Cheats.1.f
+        country_event = Cheats.60
+    }
+    option = {
+        name = Cheats.1.g
+        country_event = Cheats.70
+    }
+    option = {
+        name = Cheats.1.h
+        country_event = Cheats.80
+    }
+    option = {
+        name = Cheats.1.i
+        country_event = Cheats.90
+    }
+    option = {
+        name = Cheatsclose
+    }
+}
+
+# Buildings 10
+#country_event = {
+#    id = Cheats.10
+#    title = Cheats.10.t
+#    desc = Cheats.10.desc
+#    picture = GFX_report_event_german_inspect_troops
+#    is_triggered_only = yes
+#    
+#    mean_time_to_happen = { days = 0 }
+#
+#    option = {
+#        name = Cheats.10.a
+#        every_state = {
+#            limit = { is_controlled_by = ROOT }
+#            add_building_construction = {
+#                type = infrastructure
+#                level = 1
+#                instant_build = yes
+#            }
+#        }
+#        country_event = Cheats.1
+#    }
+#    option = {
+#        name = Cheats.10.b
+#        every_state = {
+#            limit = { is_controlled_by = ROOT }
+#            add_building_construction = {
+#                type = anti_air_building
+#                level = 1
+#                instant_build = yes
+#            }    
+#        }
+#        country_event = Cheats.1
+#    }
+#    option = {
+#        name = Cheats.10.c
+#        every_state = {
+#            limit = { is_controlled_by = ROOT }
+#            add_building_construction = {
+#                type = radar_station
+#                level = 1
+#                instant_build = yes
+#            }
+#        }
+#        country_event = Cheats.1
+#    }
+#    option = {
+#        name = Cheats.10.d
+#        every_state = {
+#            limit = { is_controlled_by = ROOT }
+#            add_building_construction = {
+#                type = air_base
+#                level = 1
+#                instant_build = yes
+#            }
+#        }
+#        country_event = Cheats.1
+#    }
+#    option = {
+#        name = Cheats.10.e
+#        add_offsite_building = { type = industrial_complex level = 2 }
+#        country_event = Cheats.1
+#    }
+#    option = {
+#        name = Cheats.10.f
+#        add_offsite_building = { type = arms_factory level = 2 }
+#        country_event = Cheats.1
+#    }
+#    option = {
+#        name = Cheats.10.g
+#        every_state = {
+#            limit = { is_controlled_by = ROOT }
+#            add_extra_state_shared_building_slots = 2
+#        }
+#        country_event = Cheats.1
+#    }
+#    option = {
+#        name = Cheatsback
+#        country_event = Cheats.1
+#    }
+#}
+
+# Resources 20
+country_event = {
+    id = Cheats.20
+    title = Cheats.20.t
+    desc = Cheats.20.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Cheats.20.a
+        every_state = {
+            limit = { is_controlled_by = ROOT }
+            add_resource = {
+                type = rubber
+                amount = 8
+            }
+            add_resource = {
+                type = oil
+                amount = 8
+            }
+            add_resource = {
+                type = aluminium
+                amount = 8
+            }
+            add_resource = {
+                type = tungsten
+                amount = 8
+            }
+            add_resource = {
+                type = steel
+                amount = 8
+            }
+            add_resource = {
+                type = chromium
+                amount = 8
+            }
+            add_resource = {
+                type = coal
+                amount = 8
+            }
+        }
+        country_event = Cheats.1
+    }
+    option = {
+        name = Cheats.20.b
+        random_state = {
+            limit = { is_controlled_by = ROOT }
+            add_resource = {
+                type = rubber
+                amount = 8
+            }
+            add_resource = {
+                type = oil
+                amount = 8
+            }
+            add_resource = {
+                type = aluminium
+                amount = 8
+            }
+            add_resource = {
+                type = tungsten
+                amount = 8
+            }
+            add_resource = {
+                type = steel
+                amount = 8
+            }
+            add_resource = {
+                type = chromium
+                amount = 8
+            }
+            add_resource = {
+                type = coal
+                amount = 8
+            }
+        }
+        country_event = Cheats.1
+    }
+    option = {
+        name = Cheats.20.c
+        every_owned_state = {
+            add_resource = {
+                type = rubber
+                amount = 8
+            }
+            add_resource = {
+                type = oil
+                amount = 8
+            }
+            add_resource = {
+                type = aluminium
+                amount = 8
+            }
+            add_resource = {
+                type = tungsten
+                amount = 8
+            }
+            add_resource = {
+                type = steel
+                amount = 8
+            }
+            add_resource = {
+                type = chromium
+                amount = 8
+            }
+            add_resource = {
+                type = coal
+                amount = 8
+            }
+        }
+        country_event = Cheats.1
+    }
+    option = {
+        name = Cheatsback
+        country_event = Cheats.1
+    }
+}
+# Technologies 30
+country_event = {
+    id = Cheats.30
+    title = Cheats.30.t
+    desc = Cheats.30.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Cheats.30.a
+        country_event = Cheats.31
+    }
+    option = {
+        name = Cheats.30.b
+        country_event = Cheats.32
+    }
+    option = {
+        name = Cheats.30.c
+        country_event = Cheats.33
+    }
+    option = {
+        name = Cheatsback
+        country_event = Cheats.1
+    }
+}
+# Bicycle 31
+country_event = {
+    id = Cheats.31
+    title = Cheats.31.t
+    desc = Cheats.31.desc
+    picture = GFX_report_event_german_inspect_troops
+    
+    is_triggered_only = yes
+
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Cheats.31.a
+        set_technology = { bicycle_infantry = 1 }
+        country_event = Cheats.30
+    }
+    option = {
+        name = Cheats.31.b
+        set_technology = { bicycle_infantry = 0 }
+        country_event = Cheats.30
+    }
+  
+    option = {
+        name = Cheatsback
+        country_event = Cheats.30
+    }
+}
+# 32
+country_event = {
+    id = Cheats.32
+    title = Cheats.32.t
+    desc = Cheats.32.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Cheats.32.a
+        set_technology = { cv_fighter3 = 1 }
+        set_technology = { jet_fighter2 = 1 }
+        set_technology = { cv_CAS3 = 1 }
+        set_technology = { cv_naval_bomber3 = 1 }
+        set_technology = { jet_tactical_bomber2 = 1 }
+        set_technology = { jet_strategic_bomber1 = 1 }
+        country_event = Cheats.30
+    }
+    option = {
+        name = Cheats.32.b
+        set_technology = { main_battle_tank = 1 }
+        set_technology = { modern_art = 1 }
+        set_technology = { advanced_light_tank = 1 }
+        set_technology = { advanced_light_art = 1 }
+        set_technology = { advanced_medium_tank = 1 }
+        set_technology = { advanced_medium_art = 1 }
+        country_event = Cheats.30
+    }
+    option = {
+        name = Cheats.32.c
+        set_technology = { mechanised_infantry3 = 1 }
+        set_technology = { motorized_rocket_unit = 1 }
+        set_technology = { motorised_infantry = 1 }
+        set_technology = { tech_support = 1 }
+        set_technology = { advanced_infantry_weapons = 1 }
+        set_technology = { tech_mountaineers = 1 }
+        country_event = Cheats.30
+    }
+    option = {
+        name = Cheats.32.d
+        set_technology = { torpedo_cruiser = 1 }
+        set_technology = { advanced_submarine = 1 }
+        set_technology = { advanced_carrier = 1 }
+        set_technology = { heavy_battleship2 = 1 }
+        set_technology = { advanced_battleship = 1 }
+        set_technology = { advanced_heavy_cruiser = 1 }
+        country_event = Cheats.30
+    }
+    option = {
+        name = Cheatsback
+        country_event = Cheats.30
+    }
+}
+# 33
+country_event = {
+    id = Cheats.33
+    title = Cheats.33.t
+    desc = Cheats.33.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Cheats.33.a
+        country_event = Cheats.30
+    }
+    option = {
+        name = Cheats.33.b
+        country_event = Cheats.30
+    }
+  
+    option = {
+        name = Cheatsback
+        country_event = Cheats.30
+    }
+}
+
+# Equipments 40
+country_event = {
+    id = Cheats.40
+    title = Cheats.40.t
+    desc = Cheats.40.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Cheats.40.a
+        country_event = Cheats.41
+    }
+    option = {
+        name = Cheats.40.b
+        country_event = Cheats.42
+    }
+  
+    option = {
+        name = Cheatsback
+        country_event = Cheats.1
+    }
+}
+
+# Infantry Equipments 41
+country_event = {
+    id = Cheats.41
+    title = Cheats.41.t
+    desc = Cheats.41.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+    
+    option = {
+        name = Cheats.41.a
+        add_equipment_to_stockpile = {
+            type = infantry_equipment_0
+            amount = 1000
+        }
+        country_event = Cheats.40
+    }
+    option = {
+        name = Cheats.41.b
+        add_equipment_to_stockpile = {
+            type = support_equipment_1
+            amount = 1000
+        }
+        country_event = Cheats.40
+    }
+    option = {
+        name = Cheats.41.c
+        add_equipment_to_stockpile = {
+            type = artillery_equipment_1
+            amount = 1000
+        }
+        country_event = Cheats.40
+    }
+    option = {
+        name = Cheats.41.d
+        add_equipment_to_stockpile = {
+            type = motorized_equipment_1
+            amount = 1000
+        }
+        country_event = Cheats.40
+    }
+    option = {
+        name = Cheats.41.e
+        add_equipment_to_stockpile = {
+            type = mechanized_equipment_1
+            amount = 1000
+        }
+        country_event = Cheats.40
+    }
+    option = {
+        name = Cheats.41.f
+        add_equipment_to_stockpile = {
+            type = motorized_rocket_equipment_1
+            amount = 1000
+        }
+        country_event = Cheats.40
+    }
+    
+    option = {
+        name = Cheats.41.g
+        add_equipment_to_stockpile = {
+            type = modern_tank_artillery_equipment_1
+            amount = 1000
+        }
+        country_event = Cheats.40
+    }
+    option = {
+        name = Cheatsback
+        country_event = Cheats.40
+    }
+}
+
+# Air Equipments 42
+country_event = {
+    id = Cheats.42
+    title = Cheats.42.t
+    desc = Cheats.42.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+    
+    option = {
+        name = Cheats.42.a
+        add_equipment_to_stockpile = {
+            type = strat_bomber_equipment_1
+            amount = 1000
+        }
+        country_event = Cheats.40
+    }
+    option = {
+        name = Cheats.42.b
+        add_equipment_to_stockpile = {
+            type = jet_strat_bomber_equipment_1
+            amount = 1000
+        }
+        country_event = Cheats.40
+    }
+    option = {
+        name = Cheats.42.c
+        add_equipment_to_stockpile = {
+            type = transport_plane_equipment_1
+            amount = 1000
+        }
+        country_event = Cheats.40
+    }
+    option = {
+        name = Cheats.42.d
+        add_equipment_to_stockpile = {
+            type = jet_fighter_equipment_2
+            amount = 1000
+        }
+        country_event = Cheats.40
+    }
+    option = {
+        name = Cheats.42.e
+        add_equipment_to_stockpile = {
+            type = cv_CAS_equipment_3
+            amount = 1000
+        }
+        country_event = Cheats.40
+    }
+    option = {
+        name = Cheatsback
+        country_event = Cheats.40
+    }
+}
+
+# Points and Exps 50
+#country_event = {
+#    id = Cheats.50
+#    title = Cheats.50.t
+#    desc = Cheats.50.desc
+#    picture = GFX_report_event_german_inspect_troops
+#    is_triggered_only = yes
+#    mean_time_to_happen = { days = 0 }
+#
+#    option = {
+#        name = Cheats.50.a
+#        army_experience = 100
+#        country_event = Cheats.1
+#    }
+#    option = {
+#        name = Cheats.50.b
+#        navy_experience = 100
+#        country_event = Cheats.1
+#    }
+#    option = {
+#        name = Cheats.50.c
+#        air_experience = 100
+#        country_event = Cheats.1
+#    }
+#    option = {
+#        name = Cheats.50.d
+#        add_political_power = 300
+#        country_event = Cheats.1
+#    }
+#    option = {
+#        name = Cheats.50.e
+#        add_manpower = 500000
+#        country_event = Cheats.1
+#    }
+#    option = {
+#        name = Cheats.50.f
+#        add_command_power = 100
+#        country_event = Cheats.1
+#    }
+#    option = {
+#        name = Cheats.50.g
+#        add_stability = 0.1
+#        country_event = Cheats.1
+#    }
+#    option = {
+#        name = Cheats.50.h
+#        add_war_support = 0.1
+#        country_event = Cheats.1
+#    }
+#    option = {
+#        name = Cheats.50.i
+#        add_named_threat = { threat = 25 }
+#        country_event = Cheats.1
+#    }
+#    option = {
+#        name = Cheats.50.j
+#        add_named_threat = { threat = -25 }
+#        country_event = Cheats.1
+#    }
+#    option = {
+#        name = Cheatsback
+#        country_event = Cheats.1
+#    }
+#}
+
+# Faction and Parties 60
+country_event = {
+    id = Cheats.60
+    title = Cheats.60.t
+    desc = Cheats.60.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Cheats.60.a
+        random_country = {
+            limit = {
+                AND = {
+                    is_in_faction_with = ROOT
+                    is_faction_leader = yes
+                }
+            }
+            remove_from_faction = ROOT
+        }
+        country_event = Cheats.1
+    }
+    option = {
+        name = Cheats.60.b
+        country_event = Cheats.61
+    }
+
+    option = {
+        name = Cheats.60.c
+        every_country = {
+            limit = { 
+                AND = { 
+                    has_war_with = ROOT
+                    is_in_faction = yes
+                    is_faction_leader = no
+                }
+            }
+            random_country = {
+                limit = {
+                    AND = {
+                        is_in_faction_with = PREV
+                        is_faction_leader = yes
+                    }
+                }
+                remove_from_faction = PREV
+            }
+        }
+        country_event = Cheats.1
+    }
+    option = {
+        name = Cheats.60.d
+        country_event = Cheats.62
+    }
+    option = {
+        name = Cheats.60.e
+        country_event = Cheats.63
+    }
+  
+    option = {
+        name = Cheatsback
+        country_event = Cheats.1
+    }
+}
+
+# Join Faction 61
+country_event = {
+    id = Cheats.61
+    title = Cheats.61.t
+    desc = Cheats.61.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Cheats.61.a
+        random_country = {
+            limit = {
+                AND = {
+                    is_in_faction_with = SOV
+                    is_faction_leader = yes
+                }
+            }
+            add_to_faction = ROOT
+        }
+        country_event = Cheats.60
+    }
+    option = {
+        name = Cheats.61.b
+        random_country = {
+            limit = {
+                AND = {
+                    is_in_faction_with = ENG
+                    is_faction_leader = yes
+                }
+            }
+            add_to_faction = ROOT
+        }
+        country_event = Cheats.60
+    }
+    option = {
+        name = Cheats.61.c
+        random_country = {
+            limit = {
+                AND = {
+                    is_in_faction_with = GER
+                    is_faction_leader = yes
+                }
+            }
+            add_to_faction = ROOT
+        }
+        country_event = Cheats.60
+    }
+    option = {
+        name = Cheatsback
+        country_event = Cheats.60
+    }
+}
+
+# Disband Faction 62
+country_event = {
+    id = Cheats.62
+    title = Cheats.62.t
+    desc = Cheats.62.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Cheats.62.a
+        random_country = {
+            limit = {
+                AND = {
+                    has_war_with = ROOT
+                    is_faction_leader = yes
+                }
+            }
+            dismantle_faction = yes
+        }
+        country_event = Cheats.60
+    }
+    option = {
+        name = Cheats.62.b
+        every_country = {
+            limit = {
+                is_faction_leader = yes
+            }
+            dismantle_faction = yes
+        }
+        country_event = Cheats.60
+    }
+    option = {
+        name = Cheats.62.c
+        random_country = {
+            limit = {
+                AND = {
+                    is_faction_leader = yes
+                }
+            }
+            dismantle_faction = yes
+        }
+        country_event = Cheats.60
+    }
+    option = {
+        name = Cheatsback
+        country_event = Cheats.60
+    }
+}
+
+# Re-Group party 63
+country_event = {
+    id = Cheats.63
+    title = Cheats.63.t
+    desc = Cheats.63.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Cheats.63.a
+        set_politics = {
+            ruling_party = people
+            elections_allowed = yes
+            parties = {
+                people = { 
+                    popularity = 70
+                }
+                intellectuals = {
+                    popularity = 10
+                }
+                elites = {
+                    popularity = 10
+                }
+                ruler = {
+                    popularity = 10
+                }
+            }
+        }
+        country_event = Cheats.60
+    }
+    option = {
+        name = Cheats.63.b
+        set_politics = {
+            ruling_party = intellectuals
+            elections_allowed = no
+            parties = {
+                people = { 
+                    popularity = 10
+                }
+                intellectuals = {
+                    popularity = 70
+                }
+                elites = {
+                    popularity = 10
+                }
+                ruler = {
+                    popularity = 10
+                }
+            }
+        }
+        country_event = Cheats.60
+    }
+    option = {
+        name = Cheats.63.c
+        set_politics = {
+            ruling_party = elites
+            elections_allowed = no
+            parties = {
+                people = { 
+                    popularity = 10
+                }
+                intellectuals = {
+                    popularity = 10
+                }
+                elites = {
+                    popularity = 70
+                }
+                ruler = {
+                    popularity = 10
+                }
+            }
+        }
+        country_event = Cheats.60
+    }
+    option = {
+        name = Cheats.63.d
+        set_politics = {
+            ruling_party = ruler
+            elections_allowed = no
+            parties = {
+                people = { 
+                    popularity = 10
+                }
+                intellectuals = {
+                    popularity = 10
+                }
+                elites = {
+                    popularity = 10
+                }
+                ruler = {
+                    popularity = 70
+                }
+            }
+        }
+        country_event = Cheats.60
+    }
+    option = {
+        name = Cheatsback
+        country_event = Cheats.60
+    }
+}
+
+# Cores and Domain 70
+country_event = {
+    id = Cheats.70
+    title = Cheats.70.t
+    desc = Cheats.70.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = {
+            every_state = {
+                limit= {
+                    is_core_of = ROOT
+                }
+                set_state_flag = player_state
+            }
+            set_country_flag = player_country
+        }
+    }
+
+    option = {
+        name = Cheats.70.a
+        every_state = {
+            limit = {
+                is_core_of = ROOT
+                is_controlled_by = ROOT
+                is_owned_by = ROOT
+            }
+            every_country = {
+                limit = {
+                    NOT = { has_country_flag = player_country }
+                }
+                remove_state_core = PREV
+                remove_state_claim = PREV
+            }
+        }
+        country_event = Cheats.1
+    }
+    option = {
+        name = Cheats.70.b
+        country_event = Cheats.71
+    }
+    option = {
+        name = Cheats.70.c
+        every_state = {
+            limit = {
+                NOT = { is_controlled_by = ROOT }
+                AND = { is_core_of = ROOT }
+            }
+            remove_core_of = ROOT
+        }
+        country_event = Cheats.1
+    }
+    option = {
+        name = Cheats.70.d
+        country_event = Cheats.72
+    }
+    option = {
+        name = Cheats.70.e
+        country_event = Cheats.73
+    }
+    option = {
+        name = Cheats.70.f
+        country_event = Cheats.74
+    }
+    option = {
+        name = Cheats.70.g
+        country_event = Cheats.75
+    }
+    option = {
+        name = Cheats.70.h
+        every_country = {
+            limit = {
+                has_war_with = ROOT
+            }
+            PREV =  { white_peace = ROOT }
+        } 
+        country_event = Cheats.1
+    }
+    option = {
+        name = Cheatsback
+        country_event = Cheats.1
+    }
+}
+
+# Make Controlled to Cores 71
+country_event = {
+    id = Cheats.71
+    title = Cheats.71.t
+    desc = Cheats.71.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Cheats.71.a
+        random_state = {
+            limit = {
+                AND = {
+                    any_neighbor_state = { owner = { tag = ROOT } }
+                    NOT = { is_core_of = ROOT }
+                }
+            }
+            add_core_of = ROOT
+        }
+        country_event = Cheats.70
+    }
+    option = {
+        name = Cheats.71.b
+        every_state = {
+            limit = {
+                AND = {
+                    is_controlled_by = ROOT
+                    NOT = { is_core_of = ROOT }
+                }
+            }
+            add_core_of = ROOT
+        }
+        country_event = Cheats.70
+    }
+    option = {
+        name = Cheats.71.c
+        every_state = {
+            limit = {
+                AND = {
+                    is_claimed_by = ROOT
+                    NOT = { is_core_of = ROOT }
+                }
+            }
+            add_core_of = ROOT
+        }
+        country_event = Cheats.70
+    }
+    option = {
+        name = Cheatsback
+        country_event = Cheats.70
+    }
+}
+
+# Get Control of Core States 72
+country_event = {
+    id = Cheats.72
+    title = Cheats.72.t
+    desc = Cheats.72.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = {
+            random_state = {
+                limit = {
+                    AND = {
+                        is_core_of = ROOT
+                        NOT = { is_controlled_by = ROOT }
+                    }
+                }
+                save_event_target_as = ROOT_state
+            }
+        }
+    }
+    option = {
+        name = Cheats.72.a
+        random_state = {
+            limit = {
+                AND = {
+                    is_core_of = ROOT
+                    NOT = { is_controlled_by = ROOT }
+                }
+            }
+            ROOT = {
+                transfer_state = PREV
+            }
+        }
+        country_event = Cheats.70
+    }
+
+    option = {
+        name = Cheats.72.b
+        every_state = {
+            limit = {
+                AND = {
+                    is_core_of = ROOT
+                    NOT = { is_controlled_by = ROOT }
+                }
+            }
+            ROOT = {
+                transfer_state = PREV
+            }
+        }
+        country_event = Cheats.70
+    }
+    option = {
+        name = Cheatsback
+        country_event = Cheats.70
+    }
+}
+
+# Get Control of Neighbor States 73
+country_event = {
+    id = Cheats.73
+    title = Cheats.73.t
+    desc = Cheats.73.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Cheats.73.a
+        random_state = {
+            limit = {
+                AND = {
+                    any_neighbor_state = { owner = { tag = ROOT } }
+                    NOT = { is_controlled_by = ROOT }
+                    owner = { has_war_with = ROOT }
+                }
+            }
+            ROOT = {
+                transfer_state = PREV
+            }
+        }
+        country_event = Cheats.70
+    }
+
+    option = {
+        name = Cheats.73.b
+        random_state = {
+            limit = {
+                AND = {
+                    any_neighbor_state = { owner = { tag = ROOT } }
+                    NOT = { is_controlled_by = ROOT }
+                }
+            }
+            ROOT = {
+                transfer_state = PREV
+            }
+        }
+        country_event = Cheats.70
+    }
+
+    option = {
+        name = Cheats.73.c
+        random_state = {
+            limit = {
+                AND = {
+                    any_neighbor_state = { 
+                        is_owned_by = ROOT 
+                        ROOT = {
+                            divisions_in_state = {
+                                state = PREV
+                                size > 20
+                            }
+                        }
+                    }
+                    
+                    NOT = { is_controlled_by = ROOT }
+                }
+            }
+            ROOT = {
+                transfer_state = PREV
+            }
+        }
+        country_event = Cheats.70
+    }
+    option = {
+        name = Cheatsback
+        country_event = Cheats.70
+    }
+}
+
+# Puppet Country 74
+country_event = {
+    id = Cheats.74
+    title = Cheats.74.t
+    desc = Cheats.74.desc
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Cheats.74.a
+        random_country = {
+            limit = {
+                AND = {
+                    is_ai = yes
+                    NOT = { is_puppet_of = ROOT }
+                }
+            }
+            ROOT = { puppet = PREV }
+        }
+        country_event = Cheats.70
+    }
+
+    option = {
+        name = Cheats.74.b
+        random_country = {
+            limit = {
+                AND = {
+                    is_neighbor_of = ROOT
+                    NOT = { is_puppet_of = ROOT }
+                }
+            }
+            ROOT = { puppet = PREV }
+        }
+        country_event = Cheats.70
+    }
+
+    option = {
+        name = Cheats.74.c
+        random_country = {
+            limit = {
+                AND = {
+                    has_war_with = ROOT
+                    NOT = { is_puppet_of = ROOT }
+                }
+            }
+            ROOT = { puppet = PREV }
+        }
+        country_event = Cheats.70
+    }
+
+    option = {
+        name = Cheatsback
+        country_event = Cheats.70
+    }
+}
+
+# Set Capital 75
+country_event = {
+    id = Cheats.75
+    title = Cheats.75.t
+    desc = Cheats.75.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    immediate = {
+        hidden_effect = { 
+            random_owned_state = {
+                limit = {
+                    AND = {
+                        is_owned_by = ROOT
+                        ROOT = {
+                            divisions_in_state = {
+                                state = PREV
+                                size > 10
+                            }
+                        }
+                    }
+                }
+                save_event_target_as = cap_state          
+            }
+            random_owned_state = {
+                limit = {
+                    AND = {
+                        is_owned_by = ROOT
+                        ROOT = {
+                            divisions_in_state = {
+                                state = PREV
+                                size > 20
+                            }
+                        }
+                    }
+                }
+                save_event_target_as = cap_states         
+            }
+            random_owned_state = {
+                save_event_target_as = cap_statess         
+            }
+        }
+    }
+
+    option = {
+        name = Cheats.75.a
+        set_capital = event_target:cap_state
+        country_event = Cheats.70
+    }
+    option = {
+        name = Cheats.75.b
+        set_capital = event_target:cap_states
+        country_event = Cheats.70
+    }
+    option = {
+        name = Cheats.75.c
+        set_capital = event_target:cap_statess
+        country_event = Cheats.70
+    }
+    option = {
+        name = Cheatsback
+        country_event = Cheats.70
+    }
+}
+
+# Static Modifiers 80
+country_event = {
+    id = Cheats.80
+    title = Cheats.80.t
+    desc = Cheats.80.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Cheats.80.a
+        if = {
+            limit = { has_idea = de_combat_width }
+            remove_ideas = de_combat_width
+            else = { add_ideas = de_combat_width }
+        }
+        country_event = Cheats.1
+    }
+    option = {
+        name = Cheats.80.b
+        if = {
+            limit = { has_idea = more_org }
+            remove_ideas = more_org
+            else = { add_ideas = more_org }
+        }
+        country_event = Cheats.1
+    }
+    option = {
+        name = Cheats.80.c
+        if = {
+            limit = { has_idea = more_special }
+            remove_ideas = more_special
+            else = { add_ideas = more_special }
+        }
+        country_event = Cheats.1
+    }
+    option = {
+        name = Cheats.80.d
+        if = {
+            limit = { has_idea = safety_eqs }
+            remove_ideas = safety_eqs
+            else = { add_ideas = safety_eqs }
+        }
+        country_event = Cheats.1
+    }
+    option = {
+        name = Cheatsback
+        country_event = Cheats.1
+    }
+}
+# Leaders 90
+country_event = {
+    id = Cheats.90
+    title = Cheats.90.t
+    desc = Cheats.90.d
+    picture = GFX_report_event_german_inspect_troops
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 0 }
+
+    option = {
+        name = Cheats.90.a
+        every_army_leader = {
+            add_unit_leader_trait = expert_improviser
+        }
+        country_event = Cheats.1
+    }
+    option = {
+        name = Cheats.90.b
+        every_army_leader = {
+            add_unit_leader_trait = lt_all_ability
+        }
+        country_event = Cheats.1
+    }
+    option = {
+        name = Cheats.90.c
+        every_army_leader = {
+            add_unit_leader_trait = ctrl_more_troops
+        }
+        country_event = Cheats.1
+    }
+    option = {
+        name = Cheatsback
+        country_event = Cheats.1
+    }
+}

@@ -1,0 +1,16 @@
+﻿l_english:
+ 
+ #Wargoals
+ take_state_cheat:0 "Conquer (Cheat)"
+ take_state_desc_cheat:0 "Take $STATE|Y$ from $TARGET|Y$."
+ take_state_short_desc_cheat:0 "This war goal will make selected states cheaper to pick at the peace conference. (Cheat: 10 Day, 10 selects) C:LTG"
+
+ # Leader Traits
+ ctrl_more_troops:0 "Control More Troops"
+ lt_all_ability:0 "Learn All Abilities"
+
+# Static Modifiers
+ de_combat_width:0 "Decrease Combat Width"
+ more_org:0 "Max Organization"
+ more_special:0 "More Special Forces"
+ safety_eqs:0 "Safety Equipments"

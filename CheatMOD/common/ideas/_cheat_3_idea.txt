@@ -1,0 +1,237 @@
+ideas = {
+    cheat_tank_manufacturer = { 
+    
+        designer = yes
+
+        cheat_tank_manufacturer = {
+
+            picture = generic_tank_manufacturer_1
+
+            allowed = { always = yes }
+
+            cost = 0
+            removal_cost = 0
+
+            research_bonus = { armor = 1.0 }
+            
+            traits = { cheat_tank_manufacturer }
+        }
+        cheat_DLC_tank_manufacturer = {
+
+            picture = generic_tank_manufacturer_2
+
+            allowed = { always = yes }
+
+            cost = 0
+            removal_cost = 0
+
+            research_bonus = { armor = 1.0 }
+            
+            traits = { cheat_DLC_tank_manufacturer }
+        }
+    }
+    
+    cheat_naval_manufacturer = { 
+
+        designer = yes
+    
+        cheat_naval_manufacturer = {
+    
+            picture = generic_naval_manufacturer_1
+
+            allowed = { always = yes }
+
+            cost = 0
+            removal_cost = 0
+
+            research_bonus = { naval_equipment = 1.0 }
+            
+            traits = { cheat_naval_manufacturer }
+        }
+        cheat_DLC_naval_manufacturer = {
+    
+            picture = generic_naval_manufacturer_2
+
+            allowed = { always = yes }
+
+            cost = 0
+            removal_cost = 0
+
+            research_bonus = { naval_equipment = 1.0 }
+            
+            traits = { cheat_DLC_naval_manufacturer }
+        }
+    }
+
+    cheat_aircraft_manufacturer = { 
+
+        designer = yes
+
+        cheat_aircraft_manufacturer = {
+    
+            picture = generic_air_manufacturer_1
+
+            allowed = { always = yes }
+
+            cost = 0
+            removal_cost = 0
+
+            research_bonus = { air_equipment = 1.0 }
+
+            traits = { cheat_aircraft_manufacturer }
+        }
+        cheat_DLC_aircraft_manufacturer = {
+    
+            picture = generic_air_manufacturer_2
+
+            allowed = { always = yes }
+
+            cost = 0
+            removal_cost = 0
+
+            research_bonus = { air_equipment = 1.0 }
+
+            traits = { cheat_DLC_aircraft_manufacturer }
+        }
+
+    }
+
+    cheat_industrial_concern = {
+
+        cheat_industrial_concern = {
+    
+            picture = generic_industrial_concern_1
+
+            allowed = { always = yes }
+
+            cost = 0
+            removal_cost = 0
+
+            research_bonus = {
+                industry = 1.0
+                electronics = 1.0
+            }
+
+            traits = { cheat_industrial_concern }
+        }
+
+    }
+
+    cheat_materiel_manufacturer = {
+
+        designer = yes
+
+        cheat_equipment_manufacturer = {
+    
+            picture = generic_motorized_equipment_manufacturer_3
+
+            allowed = { always = yes }
+
+            cost = 0
+            removal_cost = 0
+
+            research_bonus = {
+                artillery = 1.0
+                infantry_weapons = 1.0
+                motorized_equipment = 1.0
+            }
+
+            traits = { cheat_equipment_manufacturer }
+        }
+
+    }
+
+    cheat_theorist = {
+
+        cheat_theorist = {
+
+            picture = generic_political_advisor_europe_1
+
+            allowed = { always = yes }
+
+            cost = 0
+            removal_cost = 0
+
+            research_bonus = {
+                land_doctrine = 1.0
+                naval_doctrine = 1.0
+                air_doctrine = 1.0
+            }
+
+            traits = { cheat_theorist }
+        }
+    }
+
+    cheat_advisor = {
+
+        cheat_head_of_intelligence = {
+            allowed = { 
+                has_dlc = "La Resistance"
+                if = {
+                    limit = {
+                        has_dlc = "Battle for the Bosporus"
+                    }
+                }
+            }
+            available = {
+                has_intelligence_agency = yes
+            }
+            traits = { cheat_of_intelligence }
+
+            ai_will_do = {
+                factor = 1
+                modifier = {
+                    has_intelligence_agency = no
+                    factor = 0
+                }
+            }
+
+        }
+
+        cheat_women_in_command_all = {
+            allowed = { always = yes }
+            cost = 0
+            removal_cost = 0
+            ai_will_do = { factor = 0 }
+
+            traits = { only_women_cheat_all }
+            modifier = { female_divisional_commander_chance = 1.0 }
+        }
+        cheat_women_in_command_some = {
+            allowed = { always = yes }
+            cost = 0
+            removal_cost = 0
+            ai_will_do = { factor = 0 }
+
+            traits = { only_women_cheat_some }
+            modifier = { female_divisional_commander_chance = 0.5 }
+        }
+    }
+
+    cheat_command = {
+        
+        army_chief_cheat = {
+            
+            allowed = { always = yes }
+            
+            traits = { army_chief_cheat }
+        }
+      
+
+        navy_chief_cheat = {
+            
+            allowed = { always = yes }
+            
+            traits = { navy_chief_cheat }
+        }
+
+        air_chief_cheat = {
+            
+            allowed = { always = yes }
+            
+            traits = { air_chief_cheat }
+        }
+    
+    }
+
+}

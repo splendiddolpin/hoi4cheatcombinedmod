@@ -1,0 +1,1294 @@
+ideas = {
+    cheat_politics = {
+        law = yes
+        cheat_politics_lv0 = {
+            picture = generic_production_bonus
+            modifier = {
+                command_power_gain = 0 #Flat Gain 0.0
+                command_power_gain_mult = 0 #Percentage Bonus 0.0
+                DRIFT_DEFENCE_FACTOR = 0
+                OCCUPATION_COST = -0
+                POLITICAL_POWER_GAIN = 0 #Bonus
+                POLITICAL_POWER_FACTOR = 0 #Modifies
+                stability_factor = 0 #Bonus
+                stability_weekly = 0 #Per Week
+                war_support_factor = 0 #Bonus
+                war_support_weekly = 0
+                max_command_power = 0
+            }
+            removal_cost = 0
+            ai_will_do = {
+                factor = 0
+            }
+            default = yes
+        }
+        cheat_politics_lv1 = {
+            picture = generic_production_bonus
+            modifier = {
+                command_power_gain = 0.1
+                command_power_gain_mult = 0.1
+                DRIFT_DEFENCE_FACTOR = 0.1
+                OCCUPATION_COST = -0.1
+                POLITICAL_POWER_GAIN = 0.1
+                POLITICAL_POWER_FACTOR = 0.1
+                stability_weekly = 0.001
+                war_support_weekly = 0.001
+                max_command_power = 50
+            }
+            removal_cost = 0
+            ai_will_do = {
+               factor = 0
+            }
+        }
+        cheat_politics_lv2 = {
+            picture = generic_production_bonus
+            modifier = {
+                command_power_gain = 0.18
+                command_power_gain_mult = 0.10
+                DRIFT_DEFENCE_FACTOR = 0.10
+                OCCUPATION_COST = -0.10
+                POLITICAL_POWER_GAIN = 0.18
+                POLITICAL_POWER_FACTOR = 0.10
+                war_support_weekly = 0.01
+                max_command_power = 100
+            }
+            removal_cost = 0
+            ai_will_do = {
+               factor = 0
+            }
+        }
+        cheat_politics_lv3 = {
+            picture = generic_production_bonus
+            modifier = {
+                command_power_gain = 0.50
+                command_power_gain_mult = 0.50
+                DRIFT_DEFENCE_FACTOR = 0.50
+                OCCUPATION_COST = -0.50
+                POLITICAL_POWER_GAIN = 0.50
+                POLITICAL_POWER_FACTOR = 0.50
+                stability_weekly = 0.05
+                war_support_weekly = 0.05
+                max_command_power = 150
+            }
+            removal_cost = 0
+            ai_will_do = {
+               factor = 0
+            }
+        }
+        cheat_politics_lv4 = {
+            picture = generic_production_bonus
+            modifier = {
+                command_power_gain = 0.75
+                command_power_gain_mult = 0.75
+                DRIFT_DEFENCE_FACTOR = 0.75
+                OCCUPATION_COST = -0.75
+                POLITICAL_POWER_GAIN = 0.75
+                POLITICAL_POWER_FACTOR = 0.75
+                stability_weekly = 0.075
+                war_support_weekly = 0.075
+                max_command_power = 200
+            }
+            removal_cost = 0
+            ai_will_do = {
+               factor = 0
+            }
+        }
+        cheat_politics_lv5 = {
+            picture = generic_production_bonus
+            modifier = {
+                command_power_gain = 1.75
+                command_power_gain_mult = 1.75
+                DRIFT_DEFENCE_FACTOR = 1.75
+                OCCUPATION_COST = -1.75
+                POLITICAL_POWER_GAIN = 1.75
+                POLITICAL_POWER_FACTOR = 1.75
+                stability_weekly = 0.175
+                war_support_weekly = 0.175
+                max_command_power = 250
+            }
+            removal_cost = 0
+            ai_will_do = {
+               factor = 0
+            }
+        }
+        cheat_politics_lv6 = {
+            picture = generic_production_bonus
+            modifier = {
+                command_power_gain = 2.0
+                command_power_gain_mult = 2.0
+                DRIFT_DEFENCE_FACTOR = 2.0
+                OCCUPATION_COST = -2.0
+                POLITICAL_POWER_GAIN = 2.0
+                POLITICAL_POWER_FACTOR = 2.0
+                stability_weekly = 0.2
+                war_support_weekly = 0.2
+                max_command_power = 300
+            }
+            removal_cost = 0
+            ai_will_do = {
+               factor = 0
+            }
+        }
+        cheat_politics_lv7 = {
+            picture = generic_production_bonus
+            modifier = {
+                command_power_gain = 2.25
+                command_power_gain_mult = 2.25
+                DRIFT_DEFENCE_FACTOR = 2.25
+                OCCUPATION_COST = -2.25
+                POLITICAL_POWER_GAIN = 2.25
+                POLITICAL_POWER_FACTOR = 2.25
+                stability_weekly =0.25
+                war_support_weekly = 0.25
+                max_command_power = 350
+            }
+            removal_cost = 0
+            ai_will_do = {
+               factor = 0
+            }
+        }
+        cheat_politics_lv8 = {
+            picture = generic_production_bonus
+            modifier = {
+                command_power_gain = 2.50
+                command_power_gain_mult = 2.50
+                DRIFT_DEFENCE_FACTOR = 2.50
+                OCCUPATION_COST = -2.50
+                POLITICAL_POWER_GAIN = 2.50
+                POLITICAL_POWER_FACTOR = 2.50
+                stability_weekly = 1
+                war_support_weekly = 1
+                max_command_power = 400
+            }
+            removal_cost = 0
+            ai_will_do = {
+               factor = 0
+            }
+        }
+        cheat_politics_lv9 = {
+            picture = generic_production_bonus
+            modifier = {
+                command_power_gain = 3.0
+                command_power_gain_mult = 3.0
+                DRIFT_DEFENCE_FACTOR = 3.0
+                OCCUPATION_COST = -3.0
+                POLITICAL_POWER_GAIN = 3.0
+                POLITICAL_POWER_FACTOR = 3.0
+                stability_weekly = 1.0
+                war_support_weekly = 1.0
+                max_command_power = 500
+            }
+            removal_cost = 0
+            ai_will_do = {
+               factor = 0
+            }
+        }
+    }
+
+    cheat_diplomacy = {
+        cheat_diplomacy_lv0 = {
+            picture = generic_production_bonus
+            modifier = {
+                annex_cost_factor = 0
+                add_compliance = 0
+                compliance_gain = 0
+                CRYPTO_STRENGTH = 0
+                decryption = 0
+                DECRYPTION_POWER = 0
+                encryption = 0
+                enemy_justify_war_goal_time = 0.0
+                foreign_subversive_activites = -0.0
+                generate_wargoal_tension = -0.0
+                guarantee_cost = -0.0
+                guarantee_tension = -0.0
+                improve_relations_maintain_cost_factor = -0.0
+                INTELLIGENCE_AGENCY_DEFENSE = 0
+                intel_network_gain = 0
+                join_faction_tension = -0.0
+                justify_war_goal_time = -0.0
+                lend_lease_tension = -0.0
+                operation_outcome = 0
+                operation_cost = -0
+                opinion_gain_monthly = 0 #Bonus
+                opinion_gain_monthly_factor = 0.0 #Improve Relations Gain
+                opinion_gain_monthly_same_ideology_factor = 0.0
+                own_operative_detection_chance_factor = -0
+                resistance_tick_auto = -0.0
+                send_volunteer_divisions_required = -0.0
+                subversive_activites_upkeep = -0.0
+                trade_opinion_factor = 0.0
+            }
+            removal_cost = 0
+            ai_will_do = {
+                factor = 0
+            }
+            default = yes
+        }
+        cheat_diplomacy_lv1 = {
+            picture = generic_production_bonus
+            modifier = {
+                annex_cost_factor = -0.1
+                add_compliance = 0.1
+                compliance_gain = 0.1
+                CRYPTO_STRENGTH = 0.1
+                decryption = 0.1
+                DECRYPTION_POWER = 0.1
+                encryption = 0.1
+                enemy_justify_war_goal_time = 0.1
+                foreign_subversive_activites = -0.1
+                generate_wargoal_tension = -0.1
+                guarantee_cost = -0.1
+                guarantee_tension = -0.1
+                improve_relations_maintain_cost_factor = -0.1
+                INTELLIGENCE_AGENCY_DEFENSE = 0.1
+                intel_network_gain = 0.1
+                join_faction_tension = -0.1
+                justify_war_goal_time = -0.1
+                lend_lease_tension = -0.1
+                operation_outcome = 0.1
+                operation_cost = -0.1
+                opinion_gain_monthly = 0.1 #Bonus
+                opinion_gain_monthly_factor = 0.1 #Improve Relations Gain
+                opinion_gain_monthly_same_ideology_factor = 0.1
+                own_operative_detection_chance_factor = -0.1
+                resistance_tick_auto = -0.1
+                send_volunteer_divisions_required = -0.1
+                subversive_activites_upkeep = -0.1
+                trade_opinion_factor = 0.1
+            }
+            removal_cost = 0
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_diplomacy_lv2 = {
+            picture = generic_production_bonus
+            modifier = {
+                annex_cost_factor = 0.1
+                add_compliance = 0.10
+                compliance_gain = 0.10
+                CRYPTO_STRENGTH = 0.10
+                decryption = 0.10
+                DECRYPTION_POWER = 0.10
+                encryption = 0.10
+                enemy_justify_war_goal_time = 0.10
+                foreign_subversive_activites = -0.10
+                generate_wargoal_tension = -0.10
+                guarantee_cost = -0.10
+                guarantee_tension = -0.10
+                improve_relations_maintain_cost_factor = -0.10
+                join_faction_tension = -0.10
+                justify_war_goal_time = -0.10
+                lend_lease_tension = -0.10
+                operation_outcome = 0.10
+                operation_cost = -0.10
+                opinion_gain_monthly = 0.10 #Bonus
+                opinion_gain_monthly_factor = 0.10 #Improve Relations Gain
+                opinion_gain_monthly_same_ideology_factor = 0.10
+                resistance_tick_auto = -0.10
+                send_volunteer_divisions_required = -0.10
+                subversive_activites_upkeep = -0.10
+                trade_opinion_factor = 0.10
+            }
+            removal_cost = 0
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_diplomacy_lv3 = {
+            picture = generic_production_bonus
+            modifier = {
+                annex_cost_factor = -0.5
+                add_compliance = 0.50
+                compliance_gain = 0.50
+                CRYPTO_STRENGTH = 0.50
+                decryption = 0.50
+                DECRYPTION_POWER = 0.50
+                encryption = 0.50
+                enemy_justify_war_goal_time = 0.50
+                foreign_subversive_activites = -0.50
+                generate_wargoal_tension = -0.50
+                guarantee_cost = -0.50
+                guarantee_tension = -0.50
+                improve_relations_maintain_cost_factor = -0.50
+                join_faction_tension = -0.50
+                justify_war_goal_time = -0.50
+                lend_lease_tension = -0.50
+                operation_outcome = 0.50
+                operation_cost = -0.50
+                opinion_gain_monthly = 0.50 #Bonus
+                opinion_gain_monthly_factor = 0.50 #Improve Relations Gain
+                opinion_gain_monthly_same_ideology_factor = 0.50
+                resistance_tick_auto = -0.50
+                send_volunteer_divisions_required = -0.50
+                subversive_activites_upkeep = -0.50
+                trade_opinion_factor = 0.50
+		    boost_ideology_mission_factor = 10
+		    intel_network_gain_factor = 2
+	   	    agency_upgrade_time = -0.9
+		    own_operative_capture_chance_factor = -1
+		    own_operative_detection_chance_factor = -1
+		    operative_slot = 3
+		    defense_impact_on_blueprint_stealing = 1.5 
+            }
+            removal_cost = 0
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_diplomacy_lv4 = {
+            picture = generic_production_bonus
+            modifier = {
+                annex_cost_factor = -0.75
+                add_compliance = 0.75
+                compliance_gain = 0.75
+                CRYPTO_STRENGTH = 0.75
+                decryption = 0.75
+                DECRYPTION_POWER = 0.75
+                encryption = 0.75
+                enemy_justify_war_goal_time = 0.75
+                foreign_subversive_activites = -0.75
+                generate_wargoal_tension = -0.75
+                guarantee_cost = -0.75
+                guarantee_tension = -0.75
+                improve_relations_maintain_cost_factor = -0.75
+                join_faction_tension = -0.75
+                justify_war_goal_time = -0.75
+                lend_lease_tension = -0.75
+                operation_outcome = 0.75
+                operation_cost = -0.75
+                opinion_gain_monthly = 0.75 #Bonus
+                opinion_gain_monthly_factor = 0.75 #Improve Relations Gain
+                opinion_gain_monthly_same_ideology_factor = 0.75
+                resistance_tick_auto = -0.75
+                send_volunteer_divisions_required = -0.75
+                subversive_activites_upkeep = -0.75
+                trade_opinion_factor = 0.75
+            }
+            removal_cost = 0
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_diplomacy_lv5 = {
+            picture = generic_production_bonus
+            modifier = {
+                annex_cost_factor = -1
+                add_compliance = 1.75
+                compliance_gain = 1.75
+                CRYPTO_STRENGTH = 1.75
+                decryption = 1.75
+                DECRYPTION_POWER = 1.75
+                encryption = 1.75
+                enemy_justify_war_goal_time = 1.75
+                foreign_subversive_activites = -1.75
+                generate_wargoal_tension = -1.75
+                guarantee_cost = -1.75
+                guarantee_tension = -1.75
+                improve_relations_maintain_cost_factor = -1.75
+                join_faction_tension = -1.75
+                justify_war_goal_time = -1.75
+                lend_lease_tension = -1.75
+                operation_outcome = 1.75
+                operation_cost = -1.75
+                opinion_gain_monthly = 1.75 #Bonus
+                opinion_gain_monthly_factor = 1.75 #Improve Relations Gain
+                opinion_gain_monthly_same_ideology_factor = 1.75
+                resistance_tick_auto = -1.75
+                send_volunteer_divisions_required = -1.75
+                subversive_activites_upkeep = -1.75
+                trade_opinion_factor = 1.75
+            }
+            removal_cost = 0
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_diplomacy_lv6 = {
+            picture = generic_production_bonus
+            modifier = {
+                annex_cost_factor = -1
+                add_compliance = 2.0
+                compliance_gain = 2.0
+                CRYPTO_STRENGTH = 2.0
+                decryption = 2.0
+                DECRYPTION_POWER = 2.0
+                encryption = 2.0
+                enemy_justify_war_goal_time = 2.0
+                foreign_subversive_activites = -2.0
+                generate_wargoal_tension = -2.0
+                guarantee_cost = -2.0
+                guarantee_tension = -2.0
+                improve_relations_maintain_cost_factor = -2.0
+                join_faction_tension = -2.0
+                justify_war_goal_time = -2.0
+                lend_lease_tension = -2.0
+                operation_outcome = 3.0
+                operation_cost = -3.0
+                opinion_gain_monthly = 2.0 #Bonus
+                opinion_gain_monthly_factor = 2.0 #Improve Relations Gain
+                opinion_gain_monthly_same_ideology_factor = 2.0
+                resistance_tick_auto = -2.0
+                send_volunteer_divisions_required = -2.0
+                subversive_activites_upkeep = -2.0
+                trade_opinion_factor = 2.0
+            }
+            removal_cost = 0
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_diplomacy_lv7 = {
+            picture = generic_production_bonus
+            modifier = {
+                annex_cost_factor = -1
+                add_compliance = 2.25
+                compliance_gain = 2.25
+                CRYPTO_STRENGTH = 2.25
+                decryption = 2.25
+                DECRYPTION_POWER = 2.25
+                encryption = 2.25
+                enemy_justify_war_goal_time = 2.25
+                foreign_subversive_activites = -2.25
+                generate_wargoal_tension = -2.25
+                guarantee_cost = -2.25
+                guarantee_tension = -2.25
+                improve_relations_maintain_cost_factor = -2.25
+                join_faction_tension = -2.25
+                justify_war_goal_time = -2.25
+                lend_lease_tension = -2.25
+                operation_outcome = 2.25
+                operation_cost = -2.25
+                opinion_gain_monthly = 2.25 #Bonus
+                opinion_gain_monthly_factor = 2.25 #Improve Relations Gain
+                opinion_gain_monthly_same_ideology_factor = 2.25
+                resistance_tick_auto = -2.25
+                send_volunteer_divisions_required = -2.25
+                subversive_activites_upkeep = -2.25
+                trade_opinion_factor = 2.25
+            }
+            removal_cost = 0
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_diplomacy_lv8 = {
+            picture = generic_production_bonus
+            modifier = {
+                annex_cost_factor = -1
+                add_compliance = 2.50
+                compliance_gain = 2.50
+                CRYPTO_STRENGTH = 2.50
+                decryption = 2.50
+                DECRYPTION_POWER = 2.50
+                encryption = 2.50
+                enemy_justify_war_goal_time = 2.50
+                foreign_subversive_activites = -2.50
+                generate_wargoal_tension = -2.50
+                guarantee_cost = -2.50
+                guarantee_tension = -2.50
+                improve_relations_maintain_cost_factor = -2.50
+                join_faction_tension = -2.50
+                justify_war_goal_time = -2.50
+                lend_lease_tension = -2.50
+                operation_outcome = 2.50
+                operation_cost = -2.50
+                opinion_gain_monthly = 2.50 #Bonus
+                opinion_gain_monthly_factor = 2.50 #Improve Relations Gain
+                opinion_gain_monthly_same_ideology_factor = 2.50
+                resistance_tick_auto = -2.50
+                send_volunteer_divisions_required = -2.50
+                subversive_activites_upkeep = -2.50
+                trade_opinion_factor = 2.50
+            }
+            removal_cost = 0
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        cheat_diplomacy_lv9 = {
+            picture = generic_production_bonus
+            modifier = {
+                annex_cost_factor = -1
+                add_compliance = 3.0
+                compliance_gain = 3.0
+                CRYPTO_STRENGTH = 3.0
+                decryption = 3.0
+                DECRYPTION_POWER = 3.0
+                encryption = 3.0
+                enemy_justify_war_goal_time = 3.0
+                foreign_subversive_activites = -3.0
+                generate_wargoal_tension = -3.0
+                guarantee_cost = -3.0
+                guarantee_tension = -3.0
+                improve_relations_maintain_cost_factor = -3.0
+                join_faction_tension = -3.0
+                justify_war_goal_time = -3.0
+                lend_lease_tension = -3.0
+                operation_outcome = 3.0
+                operation_cost = -3.0
+                opinion_gain_monthly = 3.0 #Bonus
+                opinion_gain_monthly_factor = 3.0 #Improve Relations Gain
+                opinion_gain_monthly_same_ideology_factor = 3.0
+                resistance_tick_auto = -3.0
+                send_volunteer_divisions_required = -3.0
+                subversive_activites_upkeep = -3.0
+                trade_opinion_factor = 3.0
+            }
+            removal_cost = 0
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+
+    cheat_technology = {
+        law = yes
+        cheat_technology_lv0 = {
+            picture = generic_intel_bonus
+            modifier = {
+                research_speed_factor = 0
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+            default = yes
+        }
+        cheat_technology_lv1 = {
+            picture = generic_intel_bonus
+            modifier = {
+                research_speed_factor = 0.01
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_technology_lv2 = {
+            picture = generic_intel_bonus
+            modifier = {
+                research_speed_factor = 0.10
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_technology_lv3 = {
+            picture = generic_intel_bonus
+            modifier = {
+                research_speed_factor = 0.50
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_technology_lv4 = {
+            picture = generic_intel_bonus
+            modifier = {
+                research_speed_factor = 0.75
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_technology_lv5 = {
+            picture = generic_intel_bonus
+            modifier = {
+                research_speed_factor = 1.75
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_technology_lv6 = {
+            picture = generic_intel_bonus
+            modifier = {
+                research_speed_factor = 2.0
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_technology_lv7 = {
+            picture = generic_intel_bonus
+            modifier = {
+                research_speed_factor = 2.25
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_technology_lv8 = {
+            picture = generic_intel_bonus
+            modifier = {
+                research_speed_factor = 2.50
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_technology_lv9 = {
+            picture = generic_intel_bonus
+            modifier = {
+                research_speed_factor = 3.0
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+    }
+
+    cheat_construction = {
+        law = yes
+        cheat_construction_lv0 = {
+            picture = generic_production_bonus
+            modifier = {
+                building_conversion = 0.0
+                conversion_cost_civ_to_mil_factor= 0.0
+                conversion_cost_mil_to_civ_factor = 0.0
+                global_building_slots_factor = 0.0
+                industry_air_damage_factor = -0.0
+                production_speed_air_base_factor = 0.00
+                production_speed_anti_air_building_factor = 0.0
+                production_speed_arms_factory_factor = 0.0
+                production_speed_buildings_factor = 0
+                production_speed_bunker_factor = 0.0
+                production_speed_coastal_bunker_factor = 0.0
+                production_speed_dockyard_factor = 0.0
+                production_speed_industrial_complex_factor = 0.0
+                production_speed_infrastructure_factor = 0.0
+                production_speed_naval_base_factor = 0.0
+                production_speed_nuclear_reactor_factor = 0.00
+                production_speed_radar_station_factor = 0.00
+                production_speed_rocket_site_factor = 0.00
+                production_speed_synthetic_refinery_factor = 0.0
+            }
+            ai_will_do = {
+               factor = 0
+            }
+            default = yes
+        }
+        cheat_construction_lv1 = {
+            picture = generic_production_bonus
+            modifier = {
+                conversion_cost_civ_to_mil_factor= -0.1
+                conversion_cost_mil_to_civ_factor = -0.1
+                global_building_slots_factor = 0.1
+                industry_air_damage_factor = -0.1
+                production_speed_air_base_factor = 0.1
+                production_speed_anti_air_building_factor = 0.1
+                production_speed_arms_factory_factor = 0.1
+                production_speed_buildings_factor = 0.1
+                production_speed_bunker_factor = 0.1
+                production_speed_coastal_bunker_factor = 0.1
+                production_speed_dockyard_factor = 0.1
+                production_speed_industrial_complex_factor = 0.1
+                production_speed_infrastructure_factor = 0.1
+                production_speed_naval_base_factor = 0.1
+                production_speed_nuclear_reactor_factor = 0.1
+                production_speed_radar_station_factor = 0.1
+                production_speed_rocket_site_factor = 0.1
+                production_speed_synthetic_refinery_factor = 0.1
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_construction_lv2 = {
+            picture = generic_production_bonus
+            modifier = {
+                conversion_cost_civ_to_mil_factor= -0.10
+                conversion_cost_mil_to_civ_factor = -0.10
+                global_building_slots_factor = 0.10
+                industry_air_damage_factor = -0.10
+                production_speed_air_base_factor = 0.10
+                production_speed_anti_air_building_factor = 0.10
+                production_speed_arms_factory_factor = 0.10
+                production_speed_buildings_factor = 0.10
+                production_speed_bunker_factor = 0.10
+                production_speed_coastal_bunker_factor = 0.10
+                production_speed_dockyard_factor = 0.10
+                production_speed_industrial_complex_factor = 0.10
+                production_speed_infrastructure_factor = 0.10
+                production_speed_naval_base_factor = 0.10
+                production_speed_nuclear_reactor_factor = 0.10
+                production_speed_radar_station_factor = 0.10
+                production_speed_rocket_site_factor = 0.10
+                production_speed_synthetic_refinery_factor = 0.10
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_construction_lv3 = {
+            picture = generic_production_bonus
+            modifier = {
+                conversion_cost_civ_to_mil_factor= -0.50
+                conversion_cost_mil_to_civ_factor = -0.50
+                global_building_slots = 5
+                industry_air_damage_factor = -0.50
+                production_speed_air_base_factor = 0.50
+                production_speed_anti_air_building_factor = 0.50
+                production_speed_arms_factory_factor = 0.50
+                production_speed_buildings_factor = 0.50
+                production_speed_bunker_factor = 0.50
+                production_speed_coastal_bunker_factor = 0.50
+                production_speed_dockyard_factor = 0.50
+                production_speed_industrial_complex_factor = 0.50
+                production_speed_infrastructure_factor = 0.50
+                production_speed_naval_base_factor = 0.50
+                production_speed_nuclear_reactor_factor = 0.50
+                production_speed_radar_station_factor = 0.50
+                production_speed_rocket_site_factor = 0.50
+                production_speed_synthetic_refinery_factor = 0.50
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_construction_lv4 = {
+            picture = generic_production_bonus
+            modifier = {
+                conversion_cost_civ_to_mil_factor= -0.75
+                conversion_cost_mil_to_civ_factor = -0.75
+                global_building_slots_factor = 0.75
+                industry_air_damage_factor = -0.75
+                production_speed_air_base_factor = 0.75
+                production_speed_anti_air_building_factor = 0.75
+                production_speed_arms_factory_factor = 0.75
+                production_speed_buildings_factor = 0.75
+                production_speed_bunker_factor = 0.75
+                production_speed_coastal_bunker_factor = 0.75
+                production_speed_dockyard_factor = 0.75
+                production_speed_industrial_complex_factor = 0.75
+                production_speed_infrastructure_factor = 0.75
+                production_speed_naval_base_factor = 0.75
+                production_speed_nuclear_reactor_factor = 0.75
+                production_speed_radar_station_factor = 0.75
+                production_speed_rocket_site_factor = 0.75
+                production_speed_synthetic_refinery_factor = 0.75
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_construction_lv5 = {
+            picture = generic_production_bonus
+            modifier = {
+                conversion_cost_civ_to_mil_factor= -1.75
+                conversion_cost_mil_to_civ_factor = -1.75
+                global_building_slots_factor = 1.75
+                industry_air_damage_factor = -1.75
+                production_speed_air_base_factor = 1.75
+                production_speed_anti_air_building_factor = 1.75
+                production_speed_arms_factory_factor = 1.75
+                production_speed_buildings_factor = 1.75
+                production_speed_bunker_factor = 1.75
+                production_speed_coastal_bunker_factor = 1.75
+                production_speed_dockyard_factor = 1.75
+                production_speed_industrial_complex_factor = 1.75
+                production_speed_infrastructure_factor = 1.75
+                production_speed_naval_base_factor = 1.75
+                production_speed_nuclear_reactor_factor = 1.75
+                production_speed_radar_station_factor = 1.75
+                production_speed_rocket_site_factor = 1.75
+                production_speed_synthetic_refinery_factor = 1.75
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_construction_lv6 = {
+            picture = generic_production_bonus
+            modifier = {
+                conversion_cost_civ_to_mil_factor= -2.0
+                conversion_cost_mil_to_civ_factor = -2.0
+                global_building_slots_factor = 2.0
+                industry_air_damage_factor = -2.0
+                production_speed_air_base_factor = 2.0
+                production_speed_anti_air_building_factor = 2.0
+                production_speed_arms_factory_factor = 2.0
+                production_speed_buildings_factor = 2.0
+                production_speed_bunker_factor = 2.0
+                production_speed_coastal_bunker_factor = 2.0
+                production_speed_dockyard_factor = 2.0
+                production_speed_industrial_complex_factor = 2.0
+                production_speed_infrastructure_factor = 2.0
+                production_speed_naval_base_factor = 2.0
+                production_speed_nuclear_reactor_factor = 2.0
+                production_speed_radar_station_factor = 2.0
+                production_speed_rocket_site_factor = 2.0
+                production_speed_synthetic_refinery_factor = 2.0
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_construction_lv7 = {
+            picture = generic_production_bonus
+            modifier = {
+                conversion_cost_civ_to_mil_factor= -2.25
+                conversion_cost_mil_to_civ_factor = -2.25
+                global_building_slots_factor = 2.25
+                industry_air_damage_factor = -2.25
+                production_speed_air_base_factor = 2.25
+                production_speed_anti_air_building_factor = 2.25
+                production_speed_arms_factory_factor = 2.25
+                production_speed_buildings_factor = 2.25
+                production_speed_bunker_factor = 2.25
+                production_speed_coastal_bunker_factor = 2.25
+                production_speed_dockyard_factor = 2.25
+                production_speed_industrial_complex_factor = 2.25
+                production_speed_infrastructure_factor = 2.25
+                production_speed_naval_base_factor = 2.25
+                production_speed_nuclear_reactor_factor = 2.25
+                production_speed_radar_station_factor = 2.25
+                production_speed_rocket_site_factor = 2.25
+                production_speed_synthetic_refinery_factor = 2.25
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_construction_lv8 = {
+            picture = generic_production_bonus
+            modifier = {
+                conversion_cost_civ_to_mil_factor= -2.50
+                conversion_cost_mil_to_civ_factor = -2.50
+                global_building_slots_factor = 2.50
+                industry_air_damage_factor = -2.50
+                production_speed_air_base_factor = 2.50
+                production_speed_anti_air_building_factor = 2.50
+                production_speed_arms_factory_factor = 2.50
+                production_speed_buildings_factor = 2.50
+                production_speed_bunker_factor = 2.50
+                production_speed_coastal_bunker_factor = 2.50
+                production_speed_dockyard_factor = 2.50
+                production_speed_industrial_complex_factor = 2.50
+                production_speed_infrastructure_factor = 2.50
+                production_speed_naval_base_factor = 2.50
+                production_speed_nuclear_reactor_factor = 2.50
+                production_speed_radar_station_factor = 2.50
+                production_speed_rocket_site_factor = 2.50
+                production_speed_synthetic_refinery_factor = 2.50
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_construction_lv9 = {
+            picture = generic_production_bonus
+            modifier = {
+                conversion_cost_civ_to_mil_factor= -3.0
+                conversion_cost_mil_to_civ_factor = -3.0
+                global_building_slots_factor = 3.0
+                industry_air_damage_factor = -3.0
+                production_speed_air_base_factor = 3.0
+                production_speed_anti_air_building_factor = 3.0
+                production_speed_arms_factory_factor = 3.0
+                production_speed_buildings_factor = 3.0
+                production_speed_bunker_factor = 3.0
+                production_speed_coastal_bunker_factor = 3.0
+                production_speed_dockyard_factor = 3.0
+                production_speed_industrial_complex_factor = 3.0
+                production_speed_infrastructure_factor = 3.0
+                production_speed_naval_base_factor = 3.0
+                production_speed_nuclear_reactor_factor = 3.0
+                production_speed_radar_station_factor = 3.0
+                production_speed_rocket_site_factor = 3.0
+                production_speed_synthetic_refinery_factor = 3.0
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+    }
+
+    cheat_production = {
+        law = yes
+        cheat_production_lv0 = {
+            picture = generic_production_bonus
+            modifier = {
+                consumer_goods_factor = 0.00
+                production_lack_of_resource_penalty_factor = 0.00
+                equipment_conversion_speed = 0.00
+                industrial_capacity_dockyard = 0.0
+                industrial_capacity_factory = 0.0
+                industry_repair_factor = 0.0
+                line_change_production_efficiency_factor = 0.0
+                local_resources = 0.0
+                local_resources_factor = 0.0
+                #min_export = -0.00
+                nuclear_production_factor = 0.0
+                production_factory_efficiency_gain_factor = 0.00
+                production_factory_max_efficiency_factor = 0.0
+                production_factory_start_efficiency_factor = 0.00
+                production_speed_buildings_factor = 0.0
+                refit_speed = 0.0
+                repair_speed = 0.0
+                factory_energy_consumption = 0.00
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+            default = yes
+        }
+        cheat_production_lv1 = {
+            picture = generic_production_bonus
+            modifier = {
+                consumer_goods_factor = -0.01
+                production_lack_of_resource_penalty_factor = -0.01
+                equipment_conversion_speed = 0.01
+                industrial_capacity_dockyard = 0.01
+                industrial_capacity_factory = 0.01
+                industry_repair_factor = 0.01
+                line_change_production_efficiency_factor = 0.01
+                local_resources = 0.01
+                local_resources_factor = 0.01
+                #min_export = -0.01
+                nuclear_production_factor = 0.01
+                production_factory_efficiency_gain_factor = 0.01
+                production_factory_max_efficiency_factor = 0.01
+                production_factory_start_efficiency_factor = 0.01
+                production_speed_buildings_factor = 0.01
+                refit_speed = 0.01
+                repair_speed = 0.01
+                factory_energy_consumption = -0.01
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_production_lv2 = {
+            picture = generic_production_bonus
+            modifier = {
+                consumer_goods_factor = -0.10
+                production_lack_of_resource_penalty_factor = -0.01
+                equipment_conversion_speed = 0.10
+                industrial_capacity_dockyard = 0.10
+                industrial_capacity_factory = 0.10
+                industry_repair_factor = 0.10
+                line_change_production_efficiency_factor = 0.10
+                local_resources = 0.10
+                local_resources_factor = 0.10
+                #min_export = -0.010
+                nuclear_production_factor = 0.10
+                production_factory_efficiency_gain_factor = 0.010
+                production_factory_max_efficiency_factor = 0.10
+                production_factory_start_efficiency_factor = 0.010
+                production_speed_buildings_factor = 0.10
+                refit_speed = 0.10
+                repair_speed = 0.10
+                factory_energy_consumption = -0.10
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_production_lv3 = {
+            picture = generic_production_bonus
+            modifier = {
+                consumer_goods_factor = -0.50
+		        production_lack_of_resource_penalty_factor = -0.50
+                equipment_conversion_speed = 0.50
+                industrial_capacity_dockyard = 0.50
+                industrial_capacity_factory = 0.50
+                industry_repair_factor = 0.50
+                line_change_production_efficiency_factor = 0.50
+                local_resources = 0.50
+                local_resources_factor = 0.50
+                #min_export = -0.50
+                nuclear_production_factor = 0.50
+                production_factory_efficiency_gain_factor = 0.50
+                production_factory_max_efficiency_factor = 0.50
+                production_factory_start_efficiency_factor = 0.50
+                production_speed_buildings_factor = 0.30
+                refit_speed = 0.50
+                repair_speed = 0.50
+                factory_energy_consumption = -0.50
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_production_lv4 = {
+            picture = generic_production_bonus
+            modifier = {
+                consumer_goods_factor = -0.075
+                production_lack_of_resource_penalty_factor = -0.75
+                equipment_conversion_speed = 0.075
+                industrial_capacity_dockyard = 0.75
+                industrial_capacity_factory = 0.75
+                industry_repair_factor = 0.75
+                line_change_production_efficiency_factor = 0.75
+                local_resources = 0.75
+                local_resources_factor = 0.75
+                #min_export = -0.075
+                nuclear_production_factor = 0.75
+                production_factory_efficiency_gain_factor = 0.075
+                production_factory_max_efficiency_factor = 0.75
+                production_factory_start_efficiency_factor = 0.075
+                production_speed_buildings_factor = 0.75
+                refit_speed = 0.75
+                repair_speed = 0.75
+                factory_energy_consumption = -0.75
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_production_lv5 = {
+            picture = generic_production_bonus
+            modifier = {
+                consumer_goods_factor = -1.075
+                equipment_conversion_speed = 1.075
+                production_lack_of_resource_penalty_factor = -1.75
+                industrial_capacity_dockyard = 1.75
+                industrial_capacity_factory = 1.75
+                industry_repair_factor = 1.75
+                line_change_production_efficiency_factor = 1.75
+                local_resources = 1.75
+                local_resources_factor = 1.75
+                #min_export = -1.075
+                nuclear_production_factor = 1.75
+                production_factory_efficiency_gain_factor = 1.075
+                production_factory_max_efficiency_factor = 1.75
+                production_factory_start_efficiency_factor = 1.075
+                production_speed_buildings_factor = 1.75
+                refit_speed = 1.75
+                repair_speed = 1.75
+                factory_energy_consumption = -1.0
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_production_lv6 = {
+            picture = generic_production_bonus
+            modifier = {
+                consumer_goods_factor = -2.0
+                production_lack_of_resource_penalty_factor = -2.0
+                equipment_conversion_speed = 2.0
+                industrial_capacity_dockyard = 2.0
+                industrial_capacity_factory = 2.0
+                industry_repair_factor = 2.0
+                line_change_production_efficiency_factor = 2.0
+                local_resources = 2.0
+                local_resources_factor = 2.0
+                #min_export = -2.0
+                nuclear_production_factor = 2.0
+                production_factory_efficiency_gain_factor = 2.0
+                production_factory_max_efficiency_factor = 2.0
+                production_factory_start_efficiency_factor = 2.0
+                production_speed_buildings_factor = 2.0
+                refit_speed = 2.0
+                repair_speed = 2.0
+                factory_energy_consumption = -2.0
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_production_lv7 = {
+            picture = generic_production_bonus
+            modifier = {
+                consumer_goods_factor = -2.25
+                production_lack_of_resource_penalty_factor = -2.25
+                equipment_conversion_speed = 2.25
+                industrial_capacity_dockyard = 2.25
+                industrial_capacity_factory = 2.25
+                industry_repair_factor = 2.25
+                line_change_production_efficiency_factor = 2.25
+                local_resources = 2.25
+                local_resources_factor = 2.25
+                #min_export = -2.25
+                nuclear_production_factor = 2.25
+                production_factory_efficiency_gain_factor = 2.25
+                production_factory_max_efficiency_factor = 2.25
+                production_factory_start_efficiency_factor = 2.25
+                production_speed_buildings_factor = 2.25
+                refit_speed = 2.25
+                repair_speed = 2.25
+                factory_energy_consumption = -2.25
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_production_lv8 = {
+            picture = generic_production_bonus
+            modifier = {
+                consumer_goods_factor = -2.50
+                production_lack_of_resource_penalty_factor = -2.50
+                equipment_conversion_speed = 2.50
+                industrial_capacity_dockyard = 2.50
+                industrial_capacity_factory = 2.50
+                industry_repair_factor = 2.50
+                line_change_production_efficiency_factor = 2.50
+                local_resources = 2.50
+                local_resources_factor = 2.50
+                #min_export = -2.50
+                nuclear_production_factor = 2.50
+                production_factory_efficiency_gain_factor = 2.50
+                production_factory_max_efficiency_factor = 2.50
+                production_factory_start_efficiency_factor = 2.50
+                production_speed_buildings_factor = 2.50
+                refit_speed = 2.50
+                repair_speed = 2.50
+                factory_energy_consumption = -2.50
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_production_lv9 = {
+            picture = generic_production_bonus
+            modifier = {
+                consumer_goods_factor = -3.0
+                production_lack_of_resource_penalty_factor = -3.0
+                equipment_conversion_speed = 3.0
+                industrial_capacity_dockyard = 3.0
+                industrial_capacity_factory = 3.0
+                industry_repair_factor = 3.0
+                line_change_production_efficiency_factor = 3.0
+                local_resources = 3.0
+                local_resources_factor = 3.0
+                #min_export = -3.0
+                nuclear_production_factor = 3.0
+                production_factory_efficiency_gain_factor = 3.0
+                production_factory_max_efficiency_factor = 3.0
+                production_factory_start_efficiency_factor = 3.0
+                production_speed_buildings_factor = 3.0
+                refit_speed = 3.0
+                repair_speed = 3.0
+                factory_energy_consumption = -3.0
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+    }
+
+    cheat_population = {
+        law = yes
+        cheat_population_lv0 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                MONTHLY_POPULATION = 0
+            }
+            ai_will_do = {
+                factor = 0
+            }
+            default = yes
+        }
+        cheat_population_lv1 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                MONTHLY_POPULATION = 0.01
+            }
+            removal_cost = 0
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_population_lv2 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                MONTHLY_POPULATION = 0.10
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_population_lv3 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                MONTHLY_POPULATION = 1.0
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_population_lv4 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                MONTHLY_POPULATION = 10.0
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_population_lv5 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                MONTHLY_POPULATION = 100.0
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_population_lv6 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                MONTHLY_POPULATION = 10000.0
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_population_lv7 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                MONTHLY_POPULATION = 100000.0
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_population_lv8 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                MONTHLY_POPULATION = 100000.0
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+        cheat_population_lv9 = {
+            picture = generic_fascism_drift_bonus
+            modifier = {
+                MONTHLY_POPULATION = 1000000.0
+            }
+            ai_will_do = {
+                   factor = 0
+            }
+        }
+    }
+
+}

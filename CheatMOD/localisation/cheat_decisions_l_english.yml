@@ -1,0 +1,60 @@
+﻿l_english:
+ #decisions
+ cheat_decisions:0 "Cheats"
+ cheat_decisions_desc:0 "This decision group contains various cheats"
+ 
+ cheat_on:0 "cheats Activate"
+ cheat_off:0 "cheats Deactivate"
+ 
+ show_select_mod_menu:0 "Show Compatibility Decisions"
+ hide_select_mod_menu:0 "Hide Compatibility Decisions"
+ 
+ md_on:0 "Political Party cheats for: Millennium Dawn: A Modern Day Mod"
+ md_off:0 "Return to Vanilla Political Party Cheats"
+ 
+ owb_on:0 "Political Party Cheats for: Old World Blues"
+ owb_off:0 "Return to Vanilla Political Party Cheats"
+ 
+ gw_on:0 "Political Party Cheats for: Great War"
+ gw_off:0 "Return to Vanilla Political Party Cheats"
+ 
+ tno_on:0 "Political Party Cheats for: The New Order"
+ tno_off:0 "Return to Vanilla Political Party Cheats"
+ 
+ ksr_on:0 "Political Party Cheats for: KaiserReich"
+ ksr_off:0 "Return to Vanilla Political Party Cheats"
+ 
+ eaw_on:0 "Political Party Cheats for: Equestria At War"
+ eaw_off:0 "Return to Vanilla Political Party Cheats"
+ 
+ air_base_cheat:0 "Add 10 Air Bases to every owned state"
+ anti_air_cheat:0 "Add 10 Anti Air buildings to every owned state"
+ infrastructure_cheat:0 "Add 10 infrastructure to every owned state"
+ radar_building_cheat:0 "Add 1 Radar Building to every owned state"
+ 
+ special_infantry_cheat:0 "Special Infantry Unlock [Attempt]"
+ tank_cheat:0 "Base Tank Technology"
+ tank_DLC_cheat:0 "DLC Tank Technology"
+ plane_cheat:0 "Base AeroPlane Technology"
+ plane_DLC_cheat:0 "DLC AeroPlane Technology"
+ ship_cheat:0 "Base Ship Technology"
+ ship_DLC_cheat:0 "DLC Ship Technology"
+ 
+ snowflake_ships_cheat:0 "Paradox calls these 'snowflake ships'"
+ 
+ cheat_1:0 "This adds the Mega Cheat that I forgot what is"
+ cheat_0:0 "This removes the Mega Cheat that I forgot what is"
+ 
+ 
+ 
+ add_research_cheat:0 "Enable Research Cheat"
+ remove_research_cheat:0 "Disable Research Cheat"
+ add_construction_cheat:0 "Enable Construction Cheat"
+ remove_construction_cheat:0 "Disable Construction Cheat"
+ add_production_cheat:0 "Enable Production Cheat"
+ remove_production_cheat:0 "Disable Production Cheat"
+ add_manpower_cheat:0 "Enable ManPower Cheat"
+ remove_manpower_cheat:0 "Disable ManPower Cheat"
+ add_operation_cheat:0 "Enable Operation Cheat"
+ remove_operation_cheat:0 "Disable Operation Cheat"
+ 

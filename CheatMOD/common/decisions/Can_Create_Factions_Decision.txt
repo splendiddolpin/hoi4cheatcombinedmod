@@ -1,0 +1,23 @@
+political_actions = {
+	Allow_Create_Faction_Yes = {
+		icon = GFX_volunteers
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes
+		}
+		visible = {
+			is_in_faction = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			set_rule = { can_create_factions = yes }
+			set_rule = { can_send_volunteers = yes }
+		}
+	}
+}	

@@ -1,0 +1,193 @@
+cheat_decisions = {
+###Switch
+    world_tention_on = {
+    
+        icon = generic_political_actions
+
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        visible = {
+            has_country_flag = cheat_on
+            NOT = { has_country_flag = world_tention_on }
+        }
+
+        complete_effect = {
+            set_country_flag = world_tention_on
+        }
+        
+    }
+    world_tention_off = {
+
+        icon = generic_political_actions
+
+        fire_only_once = no
+
+        available = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        visible = {
+            has_country_flag = world_tention_on
+        }
+
+        complete_effect = {
+            clr_country_flag = world_tention_on
+        }
+
+    }
+
+
+
+    world_tension_less_cheat_05 = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = world_tention_on 
+        }
+        cost = 0
+        complete_effect = {
+            add_named_threat = { threat = -05 }
+        }
+    }
+    world_tension_less_cheat_10 = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = cheat_on
+            has_country_flag = world_tention_on 
+        }
+        cost = 0
+        complete_effect = {
+            add_named_threat = { threat = -10 }
+        }
+    }
+    world_tension_less_cheat_15 = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = world_tention_on 
+        }
+        cost = 0
+        complete_effect = {
+            add_named_threat = { threat = -15 }
+        }
+    }
+    world_tension_less_cheat_20 = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = world_tention_on 
+        }
+        cost = 0
+        complete_effect = {
+            add_named_threat = { threat = -20 }
+        }
+    }
+    world_tension_less_cheat_25 = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = world_tention_on 
+        }
+        cost = 0
+        complete_effect = {
+            add_named_threat = { threat = -25 }
+        }
+    }
+    world_tension_less_cheat_30 = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = world_tention_on 
+        }
+        cost = 0
+        complete_effect = {
+            add_named_threat = { threat = -30 }
+        }
+    }
+    world_tension_less_cheat_35 = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = world_tention_on 
+        }
+        cost = 0
+        complete_effect = {
+            add_named_threat = { threat = -35 }
+        }
+    }
+
+
+
+    world_tension_more_cheat_35 = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = world_tention_on 
+        }
+        cost = 0
+        complete_effect = {
+            add_named_threat = { threat = 35 }
+        }
+    }
+    world_tension_more_cheat_30 = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = world_tention_on 
+        }
+        cost = 0
+        complete_effect = {
+            add_named_threat = { threat = 30 }
+        }
+    }
+    world_tension_more_cheat_25 = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = world_tention_on 
+        }
+        cost = 0
+        complete_effect = {
+            add_named_threat = { threat = 25 }
+        }
+    }
+    world_tension_more_cheat_20 = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = world_tention_on 
+        }
+        cost = 0
+        complete_effect = {
+            add_named_threat = { threat = 20 }
+        }
+    }
+    world_tension_more_cheat_15 = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = world_tention_on 
+        }
+        cost = 0
+        complete_effect = {
+            add_named_threat = { threat = 15 }
+        }
+    }
+    world_tension_more_cheat_10 = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = world_tention_on 
+        }
+        cost = 0
+        complete_effect = {
+            add_named_threat = { threat = 10 }
+        }
+    }
+    world_tension_more_cheat_05 = {
+        allowed = { is_ai = no }
+        visible = {
+            has_country_flag = world_tention_on 
+        }
+        cost = 0
+        complete_effect = {
+            add_named_threat = { threat = 05 }
+        }
+    }
+}
