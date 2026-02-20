@@ -88,9 +88,10 @@ This method is recommended if you want to update the mod easily.
 2. Navigate to the HOI4 mod directory:
 cd Documents/Paradox\ Interactive/Hearts\ of\ Iron\ IV/mod
 Clone the repository:
-git clone https://github.com/username/hoi4cheatcombinedmod.git
+git clone https://github.com/splendiddolpin/hoi4cheatcombinedmod.git
 Launch Paradox Launcher
 Enable the mod in your playset
 To update the mod later:
 git pull
+
 
